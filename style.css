@@ -1,0 +1,1589 @@
+
+
+/*
+Colores:
+Azul oscuro: #0A1B31
+Azul claro: #56B6E7
+Blanco: #FFFFFF
+Gris: #383837
+*/
+
+/* .navbar{
+    background-color: white;
+} */
+
+
+.filler{
+  background-color: rgb(255, 255, 255);
+  min-height: 5em;
+}
+/*Barra superior*/
+.navbar{
+  min-height: 5em;
+}
+.navbar-logo-sheltec{
+  /* max-width: 196px; */
+  height: 1.3em;
+  margin-left: 0;
+  padding-left: 1.5em;
+}
+.navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.navbar-nav > li:hover{
+  font-weight: bold;
+}
+
+  /*Color del texto en el navbar*/
+.nav-link {
+    color: #0A1B31 !important;
+    }
+
+#accordion{
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.accordion_servicios .card{
+  border-bottom: 1px solid #000;
+  /* border: none; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+.accordion_servicios .card-body{
+  background-color: #c7c7c7;
+}
+.arrow-left-md{
+  width: 289%!important;
+  transform: translate(-25px, -14px);
+}
+.arrow-right-md{
+  width: 289%!important;
+  transform: translate(-14px, -14px);
+}
+.banner_text-br{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.banner_text-tl{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: baseline;
+}
+.banner_text-br .banner-content{
+  padding: 0px 3em 2em 0;
+}
+.black{
+  color: #000;
+}
+.blue{
+  color: #56B6E7;
+}
+
+.btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-cotizar{
+  width: 60% ;
+  height: 3.5rem;
+}
+
+#btn_nuestros-productos{
+  padding-bottom: 2em;
+}
+
+.btn-small{
+  width: 9em;
+  min-height: 3.3em;
+}
+
+.center-all{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.center-horizontally{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center-vertically{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#card-bloque{
+  height: 100%;
+  background-image: url('Images/Bloque@2x.png');
+  background-position: center;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+#card-impresora{
+  height: 100%;
+  background-image: url('Images/impresora.png');
+  background-position: center;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.card_img_servicios{
+  width: auto;
+  max-height: 45%;
+  object-fit: contain;
+  background-position: center;
+}
+
+.card_servicios_content{
+  max-width: 80%;
+  min-height: 90%;
+  text-align: start;
+}
+
+.card_squareish{
+  transition: all 0.1s ease-in;
+}
+
+.card_squareish:hover{
+  transform: scale(1.1);
+  z-index: 5;
+  box-shadow: 0 .5rem 1rem 10px rgba(0,0,0,.15)!important;
+}
+
+.card_squareish:hover .link_cards_productos{
+  z-index: 15;
+}
+
+.card_squareish:active{
+  transform: scale(1);
+}
+
+
+.col-content-servicios{
+  height: 100%;
+}
+
+#container_portada{
+  min-width: 100vw;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+#container_servicios{
+  min-width: 94vw;
+}
+
+.content_conocenos_nosotros{
+  max-width: 60%;
+  text-align: center;
+}
+
+
+/*Portada con la foto del equipo de sheltec*/
+.cover-equipo{
+    height: 28rem;
+    background-image: url("Images/IMG_0340.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*margin-bottom: 50px;*/
+    /*Para hacer la imagen de fondo más "oscura" (opacidad):
+    background-color:rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    */
+} 
+
+.cover-nosotros{
+  background-image: url("Images/Nosotros/Imagen-3.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.cover-nosotros .banner-content{
+  max-width: 51%;
+  padding-right: 8em;
+}
+
+.cover-video{
+  height: 28rem;
+  /*Modificar aquí para incluir el video en lugar de la foto del equipo*/
+  background-image: url("Images/IMG_0340.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*margin-bottom: 50px;*/
+  /*Para hacer la imagen de fondo más "oscura" (opacidad):
+  background-color:rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+  */
+} 
+
+.cross_accordion{
+  position: absolute;
+  top: 2%;
+  left: 90%;
+}
+
+.evenly-all{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer_ul li{
+  padding-bottom: 1em;
+}
+
+/* .form-control:focus:invalid{
+  outline: 2px solid rgb(255, 0, 0); 
+  /* background-color: rgba(255, 0, 0, 0.507)!important; */
+  /* outline: none!important; */
+/* } */ 
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:20px;
+	background-color: #56B6E7;;
+	color:#f1f0ee;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	/*box-shadow: 2px 2px 3px #999;*/
+  z-index:100;
+ 
+}
+.form-control:select{
+  outline: none!important;
+  /* color: white!important; */
+}
+input:focus, textarea:focus, select:focus{
+  outline: none!important;
+}
+/* .form-control:focus:valid{
+  outline: 2px solid rgb(9, 255, 0); 
+} */
+
+
+.h1{
+  font-size: 67px;
+  font-family: 'Sweet_Sans_Pro_Bold';
+
+}
+.h1-white{
+  color: #FFFFFF;
+  
+
+}
+
+#h1-light{
+  font-size: 3rem;
+  color: #FFFFFF;
+}
+
+h2{
+  /* font-size: 52px; */
+  font-size: 60px;
+  font-family: 'Sweet_Sans_Pro_Bold';
+}
+
+.h2-white{
+  color: #FFFFFF;
+}
+
+h3{
+  font-family: 'Sweet_Sans_Pro_Bold';
+  /* font-size: 2.5em; */
+  font-size: 45px;
+}
+
+#h3_testimoniales_nosotros{
+  position: relative;
+  top: -33%;
+}
+
+h4{
+  font-family: 'Sweet_Sans_Pro_Bold';
+  font-size: 2rem;
+}
+h4, .h4{
+  font-size: 23px;
+}
+.h4_small{
+  font-size: 30px;
+}
+
+/*Subtítulos del bottom index*/
+
+h5{
+  font-family: 'Sweet_Sans_Pro_Bold';
+  font-size: 21px;
+  color: #FFFFFF;
+}
+.h5-black{
+  color: #000;
+}
+
+
+h6{
+  font-style: italic;
+}
+
+#h3-light{
+  color: #FFFFFF;
+}
+
+.h3-black{
+  color: #000;
+}
+
+#p-light{
+  color: #FFFFFF;
+}
+
+#h5-blue{
+  color: #56B6E7;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+/*********Hamburgers*************/
+.hamburger {
+  padding: 15px 15px;
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible; }
+  .hamburger:hover {
+    opacity: 0.7; }
+  .hamburger.is-active:hover {
+    opacity: 0.7; }
+  .hamburger.is-active .hamburger-inner,
+  .hamburger.is-active .hamburger-inner::before,
+  .hamburger.is-active .hamburger-inner::after {
+    background-color: #000; }
+
+.hamburger-box {
+  width: 40px;
+  height: 24px;
+  display: inline-block;
+  position: relative; }
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -2px; }
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    width: 33px;
+    height: 3px;
+    background-color: #000;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease; }
+  .hamburger-inner::before, .hamburger-inner::after {
+    content: "";
+    display: block; }
+  .hamburger-inner::before {
+    top: -10px; }
+  .hamburger-inner::after {
+    bottom: -10px; }
+
+/* Vortex */
+ .hamburger--vortex .hamburger-inner {
+   transition-duration: 0.2s;
+   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1); }
+   .hamburger--vortex .hamburger-inner::before, .hamburger--vortex .hamburger-inner::after {
+     transition-duration: 0s;
+     transition-delay: 0.1s;
+     transition-timing-function: linear; }
+   .hamburger--vortex .hamburger-inner::before {
+     transition-property: top, opacity; }
+   .hamburger--vortex .hamburger-inner::after {
+     transition-property: bottom, transform; }
+ 
+ .hamburger--vortex.is-active .hamburger-inner {
+   transform: rotate(765deg);
+   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1); }
+   .hamburger--vortex.is-active .hamburger-inner::before, .hamburger--vortex.is-active .hamburger-inner::after {
+     transition-delay: 0s; }
+   .hamburger--vortex.is-active .hamburger-inner::before {
+     top: 0;
+     opacity: 0; }
+   .hamburger--vortex.is-active .hamburger-inner::after {
+     bottom: 0;
+     transform: rotate(90deg); }
+ 
+
+html{
+  overflow-x: hidden;
+}
+
+/*******************************************************/
+
+
+.hide{
+  display: none!important;
+}
+
+#img_arduino_nuestros-productos{
+  transform: translate(-150px, 0px);
+}
+
+.img_cubo_nosotros{
+  width: 177%;
+  height: auto;
+  transform: translate(-200px, 0px);
+}
+
+.img_cables_proyectos{
+  width: 128%;
+  transform: translate(-117px, 0px);
+}
+
+.img_fast-proto_impresora{
+  width: 90%;
+  height:auto;
+  /* transform:translate(26px, 0px); */
+}
+
+.list-element{
+  padding-bottom: 2em;
+}
+
+.link_cards_productos{
+  z-index: 7;
+}
+.min-height-120{
+  min-height: 120vh;
+}
+.min-height-110{
+  min-height: 110vh;
+}
+.min-height-100{
+  min-height: 100vh;
+}
+.min-height-95{
+  min-height: 95vh;
+}
+.min-height-90{
+  min-height: 90vh;
+}
+.min-height-80{
+  min-height: 80vh;
+}
+.min-height-70{
+  min-height: 70vh;
+}
+.min-height-60{
+  min-height: 60vh;
+}
+.min-width-300{
+  min-width: 300px;
+}
+.min-width-50vw{
+  min-width:50vw;
+}
+.min-width-65vw{
+  min-width: 65vw;
+}
+.max-width-80{
+  max-width: 80%;
+}
+.max-width-90{
+  max-width: 90%;
+}
+.my-float{
+  margin-top:15px;
+}
+.parr{
+  font-size: 21px;
+  font-family: Sweet_Sans_Pro_Regular;
+}
+
+.parr-small{
+  font-size: 1em;
+  font-family: Sweet_Sans_Pro_Medium;
+}
+.parr-italic{
+  font-family: Sweet_Sans_Pro_BoldItalic;
+}
+.parr-bold{
+  font-family: Sweet_Sans_Pro_Bold;
+}
+
+.parr-white{
+  color: #FFFFFF;
+  /* font-size: 1em; */
+}
+.portada-b{
+  background-image: url('Images/osciloscopio@2x.png');
+  background-size: cover;
+  background-color: #fff;
+}
+.portada-c{
+  background-image: url('Images/Bannerc.png');
+  background-size: cover;
+  background-color: #fff;
+}
+.portada-z{
+  background-image: url('Images/shutterstock_1693977688@2x.png');
+  background-size: cover;
+}
+
+.row{
+  width: 100%;
+}
+
+.row_cards_productos{
+  margin: 0%;
+  /* min-width: 84vw; */
+  min-width: 34vw;
+  max-width: 60vw;
+}
+.row_cards_productos .card-title{
+  padding: 2em 0 0 2em;
+  min-height: 6em;
+  
+}
+.row_cards_productos .card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row_cards_productos .link_cards_productos{
+  height: 100%;
+  text-decoration: none;
+  color: #000;
+}
+
+.row_cards_productos .link_cards_productos:hover{
+  /* transform: scale(1.1); */
+}
+
+.row_product_category img{
+  max-width: 150px;
+}
+.row_product_category td{
+  vertical-align: middle;
+}
+
+.row-tarjetas-index{
+  margin: 0;
+}
+
+.section-conoce{
+  min-height: 60vh;
+}
+
+
+.section-beige{
+  background-color: #F8F8F8
+}
+
+.section_fabricantes_nosotros{
+  padding-top: 6rem;
+}
+
+.section_grid_productos h2{
+  padding-left: 2.5em
+}
+
+.section-nuestros-productos{
+  min-height: 80vh;
+  background-color: transparent;
+}
+.section_nuestros-proyectos_nosotros{
+  min-height: 100vh;
+}
+
+.section_product-categories_productos{
+  padding-bottom: 3em;
+}
+
+.section-strip{
+  min-height: 50vh;
+}
+
+.text-right{
+  text-align: right;
+  text-align: -webkit-right;
+}
+
+.text-center{
+  text-align: center;
+  text-align: -webkit-center;
+}
+.td-1{
+  max-width: 13em;
+  min-width: 21em;
+}
+.td-2{
+  max-width: 11em;
+  min-width: 25em;
+}
+
+
+/*////////////////////////////////////Testimonials//////////////////////////////////////////////////////*/
+body {
+  /* overflow: hidden; */
+}
+
+.testimonials {
+  position: absolute;
+  top: 135%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+}
+
+#testimonials_nosotros{
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+.testimonials .testimonial{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 350px;
+  border-radius: 5%;
+  overflow: hidden;
+  transition: all 300ms ease-in-out;
+  z-index: -1;
+  opacity: 0;
+}
+
+.testimonial-content{
+  max-width: 80%;
+  text-align: center;
+}
+
+.testimonial img {
+  width: auto;
+  height: 20%;
+  object-fit: cover;
+}
+
+.testimonial.active {
+  background-color: #fff;
+  opacity: 1;
+  z-index: 99;
+  box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
+}
+
+.testimonial.prev {
+  z-index: 2;
+  opacity: 0.25;
+  transform: translate(-125%, -50%);
+}
+
+.testimonial.next {
+  z-index: 2;
+  opacity: 0.25;
+  transform: translate(25%, -50%);
+}
+
+.testimonials .button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 550px;
+  z-index: 100;
+}
+
+.button-container .button {
+  color: #fff;
+  font-size: 32px;
+  cursor: pointer;
+  position: relative;
+  opacity: 0.75;
+  transition: all 300ms ease-in-out;
+}
+
+.button-container .button:hover {
+  opacity: 1;
+}
+
+.button-container .button:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 50%;
+  z-index: -99;
+}
+
+.button-container .button:nth-child(1) {
+  float: left;
+}
+
+.button-container .button:nth-child(2) {
+  float: right;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.white{
+  color: #FFFFFF;
+}
+
+.wrapper_tarjetas_nosotros{
+  width: 100%;
+}
+.wrapper_tarjetas_nosotros .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.wrapper_tarjetas_nosotros .col{
+  background-color: #fff;
+  height: 100%;
+  background-image: url(Images/Bloque@2x.png);
+  background-position: center;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  min-height: 790px;
+  /* max-width: 448px; */
+  min-width: 448px;
+  margin-top: 2em;
+}
+
+.wrapper_tarjetas_nosotros .col-content{
+  padding-top: 2em;
+}
+
+.wrapper_tarjetas_nosotros #col_nosotros_B{
+  background-image: url("Images/Nosotros/Imagen-1@2x.png");
+}
+.wrapper_tarjetas_nosotros #col_nosotros_C{
+  background-image: url("Images/Nosotros/Imagen@2x.png");
+}
+/*/////////////////////////////////////////////////Index////////////////////////////////////////////*/
+/*Primeras tarjetas verticales*/
+
+.banner{
+  min-height: 19em;
+
+}
+.banner-index{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 43vh!important;
+  
+}
+.banner-manufactura{
+  background-image: url('Images/shutterstock_1284940789.png');
+  background-size: cover;
+  /* background-position: 0px -14vw; */
+  background-repeat: no-repeat;
+  min-height: 42vh;
+  /* box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 34%); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.banner-disenio3d{
+  background-image: url('Images/shutterstock_615622823@2x.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 42vh;
+  /* box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 34%); */
+}
+.banner-contacto{
+  background-image: url('Images/Contacto/Imagen@2x.png');
+}
+.banner_productos{
+  background-image: url('Images/Productos/shutterstock_664284316@2x.png');
+}
+.banner-proyectos{
+  background-image: url('Images/Proyectos/shutterstock_1865767183@2x.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner-index-content{
+  padding: 0 2em 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  max-width: 44%;
+
+}
+.banner-productos-bottom{
+  background-image: url("Images/Productos/Imagen@2x.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner-productos-content{
+  padding: 2em 0 0 2em;
+}
+.banner-thankyou{
+  min-height: 92vh;
+  background-image: url('Images/shutterstock_1698734599@2x.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-text{
+  size: 10rem;
+}
+
+
+
+/*Texto de tarjetas verticales*/
+.card-text{
+  min-height: 10rem;
+  padding-bottom: 10rem;
+}
+
+/*Imágenes de tarjetas verticales*/
+.card-img-top {
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+}
+
+/*Botones de tarjetas verticales*/
+.card-btn-container{
+  position: absolute;
+  margin-top: 63vh;
+  width: 93%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Tarjetas horizontales*/
+.card-horizontal{
+  max-height: fit-content;
+}
+
+/*Título de tarjetas squareish (productos)*/
+.card-title-squareish{
+  color: black;
+  font-size: 0.9rem;
+}
+
+.card-opaque{
+  filter: blur();
+}
+
+/*Botones de tarjetas horizontales*/
+.card-btn-container-horizontal{
+  font-size: 30px;
+}
+
+.card-body-right{
+  padding: 1rem 4rem 1rem 20%;
+}
+
+.floating-img-left{
+  max-width: 165%;
+  margin-top: -36%;
+
+}
+
+
+
+/*Tarjeta de arduino Portenta en Index*/
+.portenta{
+  background-image: url("Images/ImagenPort@2x.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+/*Tarjeta de arduino Portenta en Productos*/
+.portenta2{
+  background-image: url("Images/BANNER_2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 87%;
+}
+
+/*Tarjeta de pinza en Index*/
+.pinza{
+  background-image: url("Images/BOT.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.52);
+}
+
+.img-cajas{
+  max-height: fit-content;
+  max-width: 90%;
+  
+}
+
+/*Tarjetas cuadradas*/
+.card_square{
+  height: 13rem;
+  width: 13rem;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.card_square_servicios{
+  border-radius: 0%;
+  height: 466px;
+  width: 405px;
+  overflow-y: hidden;
+}
+
+/* .col_img_fast-proto{
+  background-image: url("Images/");
+} */
+
+/*Columnas de tarjetas de productos*/
+.col_squareish{
+  padding-bottom: 0;
+}
+
+.card_squareish{
+  /* min-height: 27rem; */
+  min-height: 16rem;
+  height: 20rem;
+  width: 15rem;
+  border-radius: 0%;
+  margin: auto;
+  width: 100%;
+    height: 100%;
+}
+
+/*Texto de tarjetas cuadradas*/
+.card-text-mini{
+  font-size: 0.8rem;
+  padding-bottom: 1.5em;
+}
+
+/*Imágenes de tarjetas cuadradas*/
+.card-img-mini{
+  width: 100%;
+  height: 200px;
+  /* height: 99px; */
+  object-fit: contain;
+  background-position: center;
+  background-size:cover;
+}
+
+/*Tarjeta del form de PCBs*/
+.card-giant{
+  border-radius: 0px;
+  
+}
+
+
+/*Área de texto grande dentro del form*/
+.form-control{
+  border-radius: 10px;
+}
+
+/*Ajuste de ancho de los logos en sliders 2 y 3*/
+.slick-width{
+  max-width: 100% !important;
+}
+
+/*Ajuste de ancho de los logos en sliders 2 y 3*/
+.slick-width-m{
+  max-width: 80% !important;
+  margin: auto;
+}
+
+/*Logos del segundo slider (marcas que distribuimos)*/
+#logo{
+  width: 100%;
+  cursor: default !important;
+}
+
+/*Container del segundo slider (marcas que distribuimos)*/
+.slider2{
+  margin: 0 auto;
+}
+
+
+#slick .slider_content .slider_items{
+  width: 500px;
+  margin: 0 auto;
+  display: block
+}
+
+/*Flecha izquierda de slick por default*/
+.slick-prev:before{
+  display: none;
+  /* color: black !important;
+  background: url('Images/left-chevron.png'); */
+}
+/*Flecha derecha de slick por default*/
+.slick-next:before {
+  display: none;
+  /* color: black !important; */
+}
+
+.no-padding{
+  padding: 0 !important;
+}
+
+
+/*Botones*/
+.btn{
+  margin-top: auto;
+}
+
+/*Botones individuales*/
+#btnCotizardiseño,
+#btnCotizarfabric,
+#btnVermas,
+#btnCotizar{
+    vertical-align: top;
+    font-size: 15px;
+}
+
+/*Botones azules*/
+.btn-dark{
+  font-weight: bold;
+}
+
+/*Links del mapa del sitio*/
+.link-secondary{
+  font-size: 1rem;
+  font-family: Sweet_Sans_Pro_Regular;
+  color: #FFFFFF;
+}
+
+/*Prueba de texto de logos*/
+.social-media{
+  color: #FFFFFF;
+  margin: 20px 0;
+
+}
+
+.social-media a{
+  color: #FFFFFF;
+  margin-right: 3rem;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+
+.social-media a:hover{
+  color: #56B6E7;
+}
+
+.vertical-card-title{
+  min-height: 11vh;
+}
+
+/*///////////////////////////////////////////////Nosotros///////////////////////////////////////*/
+
+.container-centered{
+  justify-content: center;
+}
+
+.container-between{
+  justify-content: space-between;
+}
+/*Clases genéricas de z-index*/
+
+.bring-front{
+  z-index: 2;
+}
+
+.send-back{
+  z-index: -1;
+}
+
+.send-background{
+  z-index: -100;
+}
+
+.floating-btn{
+  z-index: 100;
+}
+
+
+/*/////////////////////////////////Cotización PCB///////////////////*/
+
+
+/*Columna de texto de la página manufactura-pcb*/
+#col-pcb{
+  background-image: url("Images/shutterstock_1864696414@2x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:0px 100vh;
+  min-height: 78.3rem;
+}
+
+
+
+.form-control{
+  size: 0.5rem;
+
+}
+
+.form-group{
+  margin-top: 1.5rem;
+}
+
+.inner-form-text{
+  padding-left: 0;
+  padding-right: 0%;
+  margin-bottom: 0 !important;
+  font-size: 0.7rem;
+}
+
+.bg-light{
+  color: #EEEEEE;
+  background-color: #EEEEEE !important;
+  border-color: #EEEEEE;
+}
+
+.browse-button{
+  border: 1px solid #666;
+  padding: 1em;
+
+}
+
+.custom-upload{
+  background-color: #56B6E7;
+  border-color: #56B6E7; 
+  width: 7rem
+}
+
+input[name="myemailform"]{
+  font-size: 0.9rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+/*//////////////////////////Diseño de impresión 3D//////////////////////////////*/
+
+#col-3d{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+/*Botón de cotizar por whatsapp*/
+#btnWhats3D{
+  background-color: #56B6E7;
+  border-color: #56B6E7;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+/*Texto de número de teléfomo*/
+.phone-number{
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/*------------------Desktop--------------------*/
+@media (min-width: 768px){
+
+  .banner-index{
+    max-height: 40vh;
+  }
+
+  #banner-manufactura-content{
+    padding-left: 7em;
+    position: relative;
+    top: 8vh;
+  }
+  #banner_text_manufactura{
+    padding-right: 7em;
+  }
+
+  .card-btn-container{
+    position: relative;
+    top: 85%;
+    margin-top: 0;
+  }
+
+  .container-nuestros-servicios{
+    margin-left: 4.5em;
+    min-width: 94%;
+  }
+
+  
+  #img_arduino_nuestros-productos{
+    max-width: 945px;
+  }
+
+  .container-title{
+    margin-left: 4.5em;
+    
+  }
+
+  #img-card-bloque{
+    object-fit: contain;
+    transform: translate(0px, 143px);
+  }
+  .navbar-expand-md .hamburger {
+    display: none;
+  }
+
+  .banner-index{
+    padding-left: 5em;
+  }
+}
+
+
+/*----------------------Md---------------------*/
+
+@media (max-width:992px) and (max-height:1024px) {
+  .col-diseno-impresion{
+    padding-top: 1.6em;
+  }
+}
+
+/*----------------------Mobile---------------------*/
+
+@media (max-width:768px) and (max-height:1024px) {
+
+  .arrow-right-md, .arrow-left-md{
+    display: none;
+  }
+  .banner-index-content{
+    max-width: 100%;
+  }
+  .banner-index{
+    padding-left: 1em;
+  }
+  .banner-manufactura{
+    min-height: 22vh;
+    background-position: 0px 0vw;
+  }
+  .banner-productos-content{
+    padding: 0;
+  }
+  .banner_text-br, .banner_text-tl{
+    align-items: center;
+    justify-content: center;
+  }
+  .banner_text-br .banner-content{
+    padding: 0;
+  }
+  .card-body-right{
+    padding: 1rem 0rem 1rem 3%;
+  }
+  .card-btn-container{
+    margin-top: 61vh;
+  }
+  #card-btn-container-PCB{
+    margin-top: 55vh;
+  }
+  #card-btn-container-3d{
+    margin-top: 53vh;
+  }
+  .card_square_servicios{
+    width: 348px;
+  }
+  /* #col-btn-PCB-top{
+    margin-bottom: 2em;
+  } */
+
+  #col-content_nuestros-productos{
+    padding-left: 2em;
+  }
+  .col-content-servicios, .col-content-proyectos{
+    max-width: 90%;
+    padding-top: 3em;
+    
+  }
+  #col-3d{
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .col-disappearing{
+    display: none;
+  }
+
+
+
+  #col-img-somos{
+    padding-right: 0;
+  }
+  #col_manufactura-form_dimensiones{
+    padding-bottom: 1em;
+  }
+  #col-pcb{
+    min-height: 54em;
+  }
+  #col-tarjeta-index-bloque{
+    padding-bottom: 1.5em;
+  }
+  .container-nuestros-servicios{
+    max-width: 800px;
+    margin-left: 0;
+  }
+  #container_portada{
+    min-width: 100vw;
+  }
+  .container_logos_nosotros .row{
+    margin: 0;
+  }
+  .content_conocenos_nosotros{
+    max-width: 90%;
+  }
+  .cover-nosotros{
+    align-items: center;
+  }
+  .cover-nosotros img{
+    width: 278px!important;
+  }
+  .cover-nosotros .banner-content{
+    max-width: 90%;
+    padding-right: 0;
+    padding-top: 4em;
+  }
+
+  .footer-content{
+    width: 100%!important;
+  }
+
+  h1, .h1{
+    font-size: 47px;
+  }
+  h2, .h2{
+    font-size: 40px;
+  }
+  h3, .h3{
+    font-size: 35px;
+  }
+  h4, .h4{
+    font-size: 28px;
+  }
+  h5, .h5{
+    font-size: 21px;
+  }
+  #h2_top_productos{
+    padding-left: 1em;
+  }
+  #h3_testimoniales_nosotros{
+    top: -38%;
+  }
+
+
+
+  .img-cajas{
+    max-width: 100%;
+  }
+
+  .img_cables_proyectos{
+    width: 116%;
+    transform: translate(0px, 0px);
+  }
+
+  #img_arduino_nuestros-productos{
+    max-width: 575px;
+    transform: translate(29px, 0px)
+  }
+
+  .img_cubo_nosotros{
+    transform: translate(-90px, 0px);
+  }
+
+  .img_fast-proto_impresora{
+    
+    transform:translate(-9%, 0px);
+  }
+  
+
+  .floating-img-left{
+    max-width: 107%;
+    margin-top: -25%;
+  }
+  .mobile_hide{
+    display: none!important;
+  }
+  .navbar-logo-sheltec{
+    padding-left: 1em;
+  }
+  .no_margin_mobile{
+    margin: 0;
+  }
+
+  #row-cotiza-pcb{
+    margin: 0;
+  }
+  .row_cards_productos{
+    max-width: 81vw;
+  }
+  .section_fabricantes_nosotros{
+    padding-top: 2rem;
+  }
+  .section_grid_productos h2{
+    padding-left: 0;
+  }
+  .section_nuestros-proyectos_nosotros{
+    min-height: 240vh;
+  }
+  .slick-arrow{
+    display: none!important;
+  }
+  .slick-portada{
+    min-width: 100vw;
+  }
+  .testimonials {
+    top: 150%;
+  }
+  .testimonials .button-container {
+    width: 300px;
+  }
+  .testimonials .testimonial {
+    max-width: 80vw;
+    height: 532px;
+  }
+  .wrapper_tarjetas_nosotros .col{
+    min-width: 0;
+  }
+  .wrapper_tarjetas_nosotros .row{
+    width: 100%;
+  }
+  
+}
+
+
+
+
+/*----------------------Extra small---------------------*/
+/*Smartphone */
+
+@media (max-width:576px) and (max-height:1024px) {
+
+  #col-btn-PCB-top{
+    margin-bottom: 2em;
+  }
+
+  #img_arduino_nuestros-productos{
+    max-width: 300px;
+  }
+  #slick{
+    max-width: 300px;
+  }
+
+  .slick-slide .row{
+    margin: 0;
+  }
+}
+
+
+/*Fonts*/
+@font-face {
+  font-family: 'Sweet_Sans_Pro_Bold';
+  font-weight: bold;
+  src: url("Fonts/SweetSansProBold.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sweet_Sans_Pro_Medium';
+  src: url("Fonts/SweetSansProMedium.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sweet_Sans_Pro_Regular';
+  src: url("Fonts/SweetSansProRegular.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sweet_Sans_Pro_BoldItalic';
+  src: url("Fonts/SweetSansProBoldItalic.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Berthold_Akzidenz_Grotesk_E';
+  src: url("Fonts/AkzidenzGroteskBE-Ex.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Telegraf_Light';
+  src: url("Fonts/Telegraf-Light.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Sequel_Sans_Light_Head';
+  src: url("Fonts/Sequel_Sans/Sequel\ Sans\ Light\ Head.ttf") format("opentype");
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Sequel_Sans_Book_Head';
+  src: url("Fonts/Sequel_Sans/Sequel\ Sans\ Book\ Head.ttf") format("opentype");
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Sequel_Sans_Medium_Head';
+  src: url("Fonts/Sequel_Sans/Sequel\ Sans\ Medium\ Head.ttf") format("opentype");
+  font-display: swap;
+}
+

@@ -1,0 +1,93 @@
+
+Opción 1
+<section class="pt-1" style="background-color: #F8F8F8; padding-bottom: 0.1rem;">
+          <div class= "container mt-5 mb-3">
+            <H2>
+              Conoce<br>Nuestras Ofertas
+            </H2>
+            <!--Carrousel de imágenes-->
+            <ul class="slider">
+              <li>
+                <p>Imagen 1</p>
+                <img class="slider-img" src="Images/led.png" alt="led" style="width:100%">
+              </li>
+              <li>
+                <p>Imagen 2</p>
+                <img class="slider-img" src="Images/proteccion.png" alt="led" style="width:100%">
+              </li>
+              <li>
+                <p>Imagen 3</p>
+                <img class="slider-img" src="Images/gabinetes.png" alt="led" style="width:100%">
+              </li>
+              <li>
+                <p>Imagen 4</p>
+                <img class="slider-img" src="Images/herramientas.png" alt="led" style="width:100%">
+              </li>
+              <li>
+                <p>Imagen 5</p>
+                <img class="slider-img" src="Images/medicion.png" alt="led" style="width:100%">
+              </li>
+              <li>
+                <p>Imagen 6</p>
+                <img class="slider-img" src="Images/termica.png" alt="led" style="width:100%">
+              </li>
+              <li>
+                <p>Imagen 7</p>
+                <img class="slider-img" src="Images/medicion.png" alt="led" style="width:100%">
+              </li>
+            </ul>
+            
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+            <script src="js/script.js"></script>
+            <!-- <script type="text/javascript">
+              $('.slider').slick();
+            </script> -->
+          </div>
+          
+        </section>
+
+
+Opción 2
+
+<div class="slider">
+                  <div class="slider-items">
+                      <img class="slider-img" src="Images/led.png" alt="led" style="width:80%">
+                  </div>
+                  <div class="slider-items">
+                    <img class="slider-img" src="Images/proteccion.png" alt="proteccion" style="width:100%">
+                  </div>
+                  <div class="slider-items">
+                    <img class="slider-img" src="Images/gabinetes.png" alt="gabinetes" style="width:100%">
+                  </div>
+                  <div class="slider-items">
+                    <img class="slider-img" src="Images/herramientas.png" alt="herramientas" style="width:100%">
+                  </div>
+                  <div class="slider-items">
+                    <img class="slider-img" src="Images/termica.png" alt="termica" style="width:100%">
+                  </div>
+                  <div class="slider-items">
+                    <img class="slider-img" src="Images/medicion.png" alt="medicion" style="width:100%">
+                  </div>
+                </div>
+
+
+
+
+
+
+
+
+Arrows
+html
+<div class="arrow_prev">
+                  <span><i class="fas fa-angle-right"></i></span>
+                </div>
+
+
+css
+#slick .arrow_prev{
+  height: 6rem; 
+  position:absolute;
+  top: 50%;
+  left: 1%;
+}

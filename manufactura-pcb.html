@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Manufactura PCBs-Sheltec</title>
+        <meta charset="utf-8"><!--Esta etiqueta define el encoding de caracteres. Se recomienda este para español e inglés. -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Especialmente útil para versiones anteriores de Internet Explorer.-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!--útil para que la página se vea bien en dispositivos móviles.-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">-->
+        <!--Import the webpage's stylesheet--> 
+        <link rel="stylesheet" href="style.css" type="text/css">
+        
+        <!--Include Slick CSS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+        <link rel="stylesheet" href="slick/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <!--WhatsApp Flotante-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=524428079729&text=Quiero%20saber%20m%C3%A1s%20sobre%20Sheltec" class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
+    </head>
+
+    <body>
+        <header>
+            <!--bg-light pinta el background del navbar color light. -->
+            <nav class="navbar fixed-top navbar-expand-md navbar-light" style="background-color: #ffffff;">
+                <a class="navbar-brand me-auto" href="index.html"><img src="Images/Logo.svg" class= "img-responsive navbar-logo-sheltec"></a>
+                <!--Collapse navbar-->
+            
+                <button class="hamburger hamburger--vortex" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto" style="text-align:center;">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="proyectos.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--Video de fondo-->
+            <div class="cover d-flex justify-content-center align-items-center flex-column"></div>
+        </header>
+
+        <section class="filler">
+
+        </section>
+
+        <!--Sección de banner superior-->
+        <section class="banner banner-manufactura center-all">
+            <div class="banner-index-content center-all" id="banner-manufactura-content" style="text-align: center;">
+                <h1 class="h1 h1-white">Manufactura<br> de PCB</h1>
+            
+            </div>
+            
+            <div class="banner_text-br" id="banner_text_manufactura" style="min-width: 100%;">
+                <h2 class="white" style="padding-top: 3rem; padding-bottom: 1rem;">
+                    Cotiza tu PCB
+                </h2>
+            </div>
+          
+        </section>
+
+        <!--Tarjeta horizontal-->
+        <!-- <section>
+        
+            <div class="card text-left card-horizontal">
+                <div class="row no-gutters">
+                    <img class="" src="Images/NO_VES_EL_PRODUCTO.png" alt="pcb" style="width:100%">
+                    <div class="card-img-overlay img-flex d-flex" style="align-items: center;"> 
+                        <div class="container" style="padding: 0%;">
+                            <div class="card-body">
+                                <h1 class="card-title" id="h1-light">Manufactura<br> de PCB</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="pt-3" style="background-color: #F8F8F8; padding-bottom: 0;">
+            <div class="container">
+                <div class="row" id="row-cotiza-pcb">
+
+                    <div class="col-lg-7 pt-5 pb-5" style="padding-left: 0; padding-right:0">
+                        <div class="card shadow">
+                            <div class="card-body px-5 py-5">
+                                <h5 class="h5 h5-black pb-3">
+                                    Ingresa las especificaciones
+                                </h5>
+                                <!--Form-->
+                                <!-- <form method="POST" name="myemailform" action="PHP/contact.php"> -->
+                                <form action="https://formsubmit.co/5f55a7ba8d4cf2eef8540857b4fb5a2c" method="POST" name="myemailform" enctype="multipart/form-data">
+                                    <!--Nombre-->
+                                    <div class="form-group row row-cols-5">
+                                        <label for="NombreForm" class="col-12 col-sm-3 col-form-label">Nombre</label>
+                                        <div class="col-12 col-sm-9">
+                                            <input type="text" class="form-control rounded-pill form-control-sm bg-light text-dark" 
+                                                   id="NombreForm" placeholder="nombre completo" name="NombreForm"
+                                            >
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!--Correo electrónico-->
+                                    <div class="form-group row row-cols-5">
+                                        <label for="CorreoForm" class="col-12 col-sm-3 col-form-label">Correo</label>
+                                        <div class="col-12 col-sm-9">
+                                            <input type="email" class="form-control rounded-pill form-control-sm bg-light text-dark" 
+                                                   id="CorreoForm" placeholder="correo electrónico" name="CorreoForm"
+                                            >
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!--Teléfono-->
+                                    <div class="form-group row row-cols-5">
+                                        <label for="PhoneForm" class="col-12 col-sm-3 col-form-label">Teléfono</label>
+                                        <div class="col-12 col-sm-9">
+                                            <input type="tel" class="form-control rounded-pill form-control-sm bg-light text-dark" 
+                                                   id="PhoneForm" placeholder="(con código de área)" name="PhoneForm"
+                                            >
+                                        </div>
+                                    </div>
+                                    <!--Capas-->
+                                    <div class="form-group row">
+                                        <label for="CapasForm" class="col-12 col-sm-3 col-form-label">Capas</label>
+                                        <div class="col-12 col-sm-9">
+                                            <select class="form-select rounded-pill form-select-sm bg-light text-dark" 
+                                                    id="CapasForm" name="CapasForm">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>4</option>
+                                                <option>6</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!--Dimensiones -->
+                                    <div class="form-group row">
+                                        <label for="DimensionesForm" class="col-lg-3 col-form-label">Dimensiones</label>
+                                        <div class="col-lg-5 d-flex align-items-center" id="col_manufactura-form_dimensiones">
+                                          <input type="number" class="form-control rounded-pill form-control-sm bg-light text-dark" id="LargoForm" placeholder="largo" name="LargoForm">
+                                          <p class="inner-form-text px-1">x</p>
+                                          <input type="number" class="form-control rounded-pill form-control-sm bg-light text-dark" id="AnchoForm" placeholder="ancho" name="AnchoForm">
+                                        </div>
+                                        
+                                        <div class="col-lg-4 my-auto d-flex align-items-center" style="text-align: center;">
+                                            <p class="inner-form-text" style="margin-right: 1.5rem;">Unidades</p>
+                                            <select class="form-select rounded-pill form-select-sm bg-light text-dark" id="UnidadesForm" name="UnidadesForm">
+                                                <option>mm</option>
+                                                <option>in</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <!--Cantidad PCB-->
+                                    <div class="form-group row row-cols-5">
+                                        <label for="CantidadForm" class="col-12 col-sm-3 col-form-label">Cantidad PCB</label>
+                                        <div class="col-12 col-sm-9">
+                                            <input type="number" class="form-control rounded-pill form-control-sm bg-light text-dark" 
+                                                   id="CantidadForm" placeholder="cantidad" name="CantidadForm" min="1">
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <!--Color del PCB-->
+                                    <div class="form-group row">
+                                        <label for="ColorForm" class="col-12 col-sm-3 col-form-label">Color del PCB</label>
+                                        <div class="col-12 col-sm-9">
+                                            <select class="form-select form-select-sm rounded-pill bg-light text-dark" 
+                                                    id="ColorForm" name="ColorForm">
+                                                <option>Verde</option>
+                                                <option>Rojo</option>
+                                                <option>Amarillo</option>
+                                                <option>Azul</option>
+                                                <option>Blanco</option>
+                                                <option>Negro</option>
+                                            </select>
+                                        </div>
+                                        <p style="font-size: 0.65rem;">Si requieres un color en especial, cuéntanos en el recuadro de abajo
+                                             y para este son 2 días más de fabricación</p>
+                                    </div>
+
+                                    <!--Acabado de superficie-->
+                                    <div class="form-group row">
+                                        <label for="FinishForm" class="col-12 col-sm-4 col-form-label ">Acabado de superficie</label>
+                                        <div class="col-12 col-sm-8">
+                                            <select class="form-select form-select-sm rounded-pill bg-light text-dark"
+                                                    id="FinishForm" name="FinishForm">
+                                                <option>HASL (with lead)</option>
+                                                <option>LeadFree HASL-RoHS</option>
+                                                <option>ENIG-RoHS</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <!--Espesor del PCB-->
+                                    <div class="form-group row">
+                                        <label for="EspesorForm" class="col-12 col-sm-3 col-form-label">Espesor del PCB</label>
+                                        <div class="col-12 col-sm-9">
+                                            <select class="form-select form-select-sm rounded-pill bg-light text-dark"
+                                                    id="EspesorForm" name="EspesorForm">
+                                                <option>0.4</option>
+                                                <option>0.6</option>
+                                                <option>0.8</option>
+                                                <option>1.0</option>
+                                                <option>1.2</option>
+                                                <option>1.6</option>
+                                                <option>2.0</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    
+
+                                    <!--Stencil Si/No-->
+                                    <div class="form-group row">
+                                        <label for="StencilForm" class="col-12 col-sm-3 col-form-label">Stencil?</label>
+                                        <div class="col-12 col-sm-9">
+                                            <select class="form-select form-select-sm rounded-pill bg-light text-dark" 
+                                                    id="StencilForm" name="StencilForm">
+                                                <option>Sí</option>
+                                                <option>No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <!--Config Específica-->
+                                    <div class="form-group row">
+                                        <div class="col-sm-12">
+                                            <label for="inputSpecific" class="form-label">Si quieres alguna configuración en especifico puedes indicarnos aquí:</label>
+                                            <textarea class="form-control form-control-sm bg-light text-dark" 
+                                                      id="inputSpecific" placeholder="Escribe aquí" 
+                                                      name="inputSpecific" rows="4">
+                                            </textarea>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <!--Cargar archivo-->
+                                    <div class="form-group row">
+                                        <div class="col-sm-12">
+                                            <label for="inputFile" style="font-size: 0.65rem;">Cargar archivo formato ZIP o RAR</label>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <label class="btn btn-dark custom-upload" style="font-size: 12px;">
+                                                Buscar <input type="file" name="inputFile" accept=".zip,.rar,.7zip" hidden>
+                                            </label>
+                                        </div>
+                                        
+                                    </div>
+
+                                     <!--Botón cotizar-->
+                                     <!-- <a href="aromaterapia.html" id="btnCotizardiseño" class="btn btn-dark px-3 mx-3" style="
+                                        background-color: #56B6E7; border-color: #56B6E7;"> -->
+                                     <div class="form-group row pt-5 pb-2 justify-content-center">
+                                        <button type="submit" name="submit" class="btn btn-dark px-3 mx-3" style="
+                                            background-color: #56B6E7; border-color: #56B6E7; width: 6rem">Cotizar</button>
+                                    </div>
+
+
+                                    <p style="font-size: 0.65rem;">*Los datos recabados de el o los archivos que suba no serán compartidos con agentes
+                                        externos, de acuerdo con la política de privacidad de la empresa.
+                                    </p>
+
+
+
+
+
+
+                                    <div class="form-group"></div>
+                                    <div class="form-group"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 pb-5 col-pcb" id="col-pcb">
+                        
+                        <div class="" style="align-items: center; position: relative; top: 26vh;">
+                            
+                            <div style="text-align:center">
+                                <p>
+                                    <strong>Rapidez, precisión y atención personalizada</strong> 
+                                    para agilizar la producción de los circuitos impresos necesarios para el 
+                                    correcto funcionamiento de sus procesos tecnológicos.
+                                </p>
+                                <p><strong>Características</strong></p>
+                                <p>Hasta 16 capas</p>
+                                <p>De 2 a 6 capas, <strong>entregas de 6 a 10 días hábiles</strong></p>
+                                <p>De 8 en adelante, <strong>entregas de 15 a 20 días hábiles</strong></p>
+                            </div>
+                            
+                        </div>
+                        <!-- <div class="img-flex card-img-overlay d-flex">
+                            <img class="" src="Images/sheltec.png" alt="pcb" style="width:100%">
+                        </div> -->
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </section>
+        <!--Footer-->
+        <section class="center-all" style="background-color: black; padding-bottom: 0.1rem;">
+			<div class="footer-content center-all" style="width: 85%;">
+				<div class="row pb-5 px-5" style="width: 100%; padding-top:4.5em">
+					<div class="col-6 col-md">
+						<h5>Servicios</h5>
+						<ul class="list-unstyled footer_ul">
+							<li><a class="link-secondary text-decoration-none" href="#">Fast prototyping</a></li>
+							<li><a class="link-secondary text-decoration-none" href="#">Impresión 3d</a></li>
+							<li><a class="link-secondary text-decoration-none" href="#">Fabricación de PCB´s</a></li>
+						</ul>
+					</div>
+
+					<div class="col-6 col-md">
+						<h5>Productos</h5>
+						<ul class="list-unstyled footer_ul">
+							<li><a class="link-secondary text-decoration-none" href="#">Administración Térmica.</a></li>
+							<li><a class="link-secondary text-decoration-none" href="#">Automatización Industrial.</a></li>
+							<li><a class="link-secondary text-decoration-none" href="#">Cables y Alambres.</a></li>
+							<li><a class="link-secondary text-decoration-none" href="#">Componentes pasivos.</a></li>
+							<li><a class="link-secondary text-decoration-none" href="#">Conectores.</a></li>
+							<li><a class="link-secondary text-decoration-none" href="#">Más...</a></li>
+						</ul>
+					</div>
+
+					<div class="col-6 col-md">
+						<h5>Proyectos</h5>
+						<ul class="list-unstyled footer_ul">
+						</ul>
+					</div>
+
+					<div class="col-6 col-md">
+						<h5>Nosotros</h5>
+						<ul class="list-unstyled footer_ul">
+							<li>
+								<a class="link-secondary text-decoration-none" href="#">¿Quiénes somos?</a>
+							</li>
+						</ul>
+						<h5>Contacto</h5>
+						<ul class="list-unstyled footer_ul">
+							<li><a class="link-secondary text-decoration-none" href="#">¿Quiere realizar un pedido?</a></li>
+							<li><a class="link-secondary text-decoration-none" href="#">ventas@sheltecmx.com</a>
+							</li>
+							<li><a class="link-secondary text-decoration-none" href="#">(442) 807 9729</a></li>
+							<li><br></li>
+							<!--Aquí va el botón de Descargar-->
+							<a href="contacto.html" id="btnCotizardiseño" class="btn btn-small btn-dark px-3 mx-3" style="
+							background-color: #56B6E7; border-color: #56B6E7; justify-self: right;
+							">Cotizar</a>
+						</ul>
+					</div>
+				</div>
+	
+			  <!--Renglón de hasta abajo-->
+				<div class="row pt-4 pb-5 px-5" style="width: 100%;">
+					<div class="col-6 col-md-3">
+						<a class="link-secondary text-decoration-none" href="#">Términos y Condiciones</a>
+					</div>
+					<div class="col-6 col-md-3">
+						<a class="link-secondary text-decoration-none" href="#">Políticas de Privacidad</a>
+					</div>
+					<div class="col-6 col-md-3">
+					</div>
+              
+              		<!--Columna de los logos-->
+					<div class="col-6 col-md-3">
+						<div class="social-media">
+							<a href="https://www.facebook.com/SheltecMX"><i class="fab fa-facebook-f"></i></a>
+							<a href="https://www.instagram.com/sheltec.mx/"><i class="fab fa-instagram"></i></a>
+							<a href="https://www.linkedin.com/company/sheltec-m%C3%A9xico/about/"><i class="fab fa-linkedin-in"></i></a>
+						</div>
+					</div>
+            	</div>
+			</div>
+			
+		</section>
+
+        <!--JavaScript-->
+        <!--Script de JS local-->
+      	<script language="JavaScript" type="module" src="script.js"></script>
+        <!--Import jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
+        <!--Import slick-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <!--Custom slick-->
+        <script src="js/script.js"></script>
+        <!--Bootstrap JS-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
