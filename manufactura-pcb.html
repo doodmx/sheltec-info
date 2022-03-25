@@ -109,7 +109,13 @@
                                 </h5>
                                 <!--Form-->
                                 <!-- <form method="POST" name="myemailform" action="PHP/contact.php"> -->
-                                <form action="https://formsubmit.co/5f55a7ba8d4cf2eef8540857b4fb5a2c" method="POST" name="myemailform" enctype="multipart/form-data">
+                                <form action="https://formsubmit.co/ventas@sheltecmx.com" method="POST" name="myemailform" enctype="multipart/form-data">
+                                    <!-- Honeypot --> 
+                                    <input type="text" name="_honey" style="display: none;">
+                                    <!--Quitar captcha-->
+                                    <input type="hidden" name="_captcha" value="false">
+                                    <!-- Página de agradecimiento-->
+                                    <input type="hidden" name="_next" value="https://sheltecmx.com/gracias.html">
                                     <!--Nombre-->
                                     <div class="form-group row row-cols-5">
                                         <label for="NombreForm" class="col-12 col-sm-3 col-form-label">Nombre</label>
