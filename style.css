@@ -1203,9 +1203,12 @@ body {
 }
 
 .custom-upload{
-  background-color: #56B6E7;
+  /* background-color: #56B6E7;
   border-color: #56B6E7; 
-  width: 7rem
+  width: 7rem; */
+  font-size: 12px;
+    background-color: transparent;
+    border: none;
 }
 
 input[name="myemailform"]{
