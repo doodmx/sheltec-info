@@ -7,7 +7,7 @@ $('.slider').slick({
     arrows:true, 
     prevArrow:"<button type='button' class='slick-prev pull-left'><img class='' src='Images/left-chevron.png' alt='left' style='width:100%'></button>",
     nextArrow:"<button type='button' class='slick-next pull-left'><img class='' src='Images/right-chevron.png' alt='right' style='width:100%'></button>",
-    slidesToScroll: 1,
+    slidesToScroll: 5,
     
     responsive: [
       {

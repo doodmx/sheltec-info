@@ -22,6 +22,26 @@
         <a href="https://api.whatsapp.com/send?phone=524428079729&text=Quiero%20saber%20m%C3%A1s%20sobre%20Sheltec" class="float" target="_blank">
             <i class="fa fa-whatsapp my-float"></i>
         </a>
+
+        <!-- Meta Pixel Code -->
+        <script>
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '7304315252975925');
+            fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=7304315252975925&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Meta Pixel Code -->
+
+        <!-- Global site tag (gtag.js) - Google Ads: 10847536433 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10847536433"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-10847536433'); </script>
     </head>
 
     <body>
@@ -118,22 +138,20 @@
                                     <input type="hidden" name="_next" value="https://sheltecmx.com/gracias.html">
                                     <!--Nombre-->
                                     <div class="form-group row row-cols-5">
-                                        <label for="NombreForm" class="col-12 col-sm-3 col-form-label">Nombre</label>
+                                        <label for="NombreForm" class="col-12 col-sm-3 col-form-label">Nombre*</label>
                                         <div class="col-12 col-sm-9">
                                             <input type="text" class="form-control rounded-pill form-control-sm bg-light text-dark" 
-                                                   id="NombreForm" placeholder="nombre completo" name="NombreForm"
-                                            >
-                                            </select>
+                                                   id="NombreForm" placeholder="nombre completo" name="NombreForm" required>
+                                            </input>
                                         </div>
                                     </div>
                                     <!--Correo electrónico-->
                                     <div class="form-group row row-cols-5">
-                                        <label for="CorreoForm" class="col-12 col-sm-3 col-form-label">Correo</label>
+                                        <label for="CorreoForm" class="col-12 col-sm-3 col-form-label">Correo*</label>
                                         <div class="col-12 col-sm-9">
                                             <input type="email" class="form-control rounded-pill form-control-sm bg-light text-dark" 
-                                                   id="CorreoForm" placeholder="correo electrónico" name="CorreoForm"
-                                            >
-                                            </select>
+                                                   id="CorreoForm" placeholder="correo electrónico" name="CorreoForm" required>
+                                            </input>
                                         </div>
                                     </div>
                                     <!--Teléfono-->
@@ -141,8 +159,8 @@
                                         <label for="PhoneForm" class="col-12 col-sm-3 col-form-label">Teléfono</label>
                                         <div class="col-12 col-sm-9">
                                             <input type="tel" class="form-control rounded-pill form-control-sm bg-light text-dark" 
-                                                   id="PhoneForm" placeholder="(con código de área)" name="PhoneForm"
-                                            >
+                                                   id="PhoneForm" placeholder="(con código de área)" name="PhoneForm" required>
+                                            </input>
                                         </div>
                                     </div>
                                     <!--Capas-->

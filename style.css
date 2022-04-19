@@ -178,6 +178,8 @@ Gris: #383837
 }
 
 
+
+
 .col-content-servicios{
   height: 100%;
 }
@@ -240,6 +242,11 @@ Gris: #383837
   background-blend-mode: darken;
   */
 } 
+
+.custom-upload{
+  width: 19rem;
+}
+
 
 .cross_accordion{
   position: absolute;
@@ -461,6 +468,11 @@ html{
   display: none!important;
 }
 
+  /* Imagenes de produdctos */
+  .img{
+    max-height: 115px;
+  }
+
 #img_arduino_nuestros-productos{
   transform: translate(-150px, 0px);
 }
@@ -562,7 +574,7 @@ html{
   background-color: #fff;
 }
 .portada-z{
-  background-image: url('Images/shutterstock_1693977688@2x.png');
+  background-image: url('Images/shutterstock_1693977688.png');
   background-size: cover;
 }
 
@@ -596,6 +608,17 @@ html{
 
 .row_cards_productos .link_cards_productos:hover{
   /* transform: scale(1.1); */
+}
+
+.row_product_category{
+  background-color: #fff;
+  /* transition: all 0.3s ease-in-out; */
+}
+.row_product_category:hover{
+  border: 2px solid #000;
+  background-color: #fff!important;
+  z-index: 5;
+  --bs-table-accent-bg: #fff!important;
 }
 
 .row_product_category img{
@@ -844,10 +867,10 @@ body {
   /* box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 34%); */
 }
 .banner-contacto{
-  background-image: url('Images/Contacto/Imagen@2x.png');
+  background-image: url('Images/Contacto/Imagen.png');
 }
 .banner_productos{
-  background-image: url('Images/Productos/shutterstock_664284316@2x.png');
+  background-image: url('Images/Productos/shutterstock_664284316.png');
 }
 .banner-proyectos{
   background-image: url('Images/Proyectos/shutterstock_1865767183@2x.png');
@@ -1203,12 +1226,13 @@ body {
 }
 
 .custom-upload{
-  /* background-color: #56B6E7;
-  border-color: #56B6E7; 
+  background-color: #56B6E7; 
+  /* border-color: #56B6E7; 
   width: 7rem; */
+  width: 19rem;
   font-size: 12px;
-    background-color: transparent;
-    border: none;
+    /* background-color: transparent; */
+  border: none;
 }
 
 input[name="myemailform"]{
