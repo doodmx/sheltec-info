@@ -485,7 +485,14 @@ html{
 
 .img_cables_proyectos{
   width: 128%;
-  transform: translate(-117px, 0px);
+  /* transform: translate(-117px, 0px); */
+}
+#img_cable_proyectos{
+  transform: translate(67px, 44px);
+}
+
+#img_cubo_proyectos{
+  transform: translate(-105px, 0px)
 }
 
 .img_fast-proto_impresora{
@@ -500,6 +507,10 @@ html{
 
 .link_cards_productos{
   z-index: 7;
+}
+
+#img_mundo_proyectos{
+  transform: translate(0px, 0px);
 }
 .min-height-120{
   min-height: 120vh;
@@ -1476,6 +1487,10 @@ input[name="myemailform"]{
   .img_fast-proto_impresora{
     
     transform:translate(-9%, 0px);
+  }
+
+  #img_mundo_proyectos{
+    transform: translate(0px, 0px);
   }
   
 
