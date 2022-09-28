@@ -1,4 +1,5 @@
 $('.slider').slick({
+    variableWidth: false,
     dots: true,
     infinite: false,
     accessibility: true,
@@ -11,16 +12,18 @@ $('.slider').slick({
     
     responsive: [
       {
-        breakpoint: 1200,
+        breakpoint: 1400,
         settings: {
-          slidesToShow: 4,
-          slidesToScroll: 4,
+          variableWidth: true,
+          slidesToShow: 3,
+          slidesToScroll: 3,
           dots: true
         }
       },
       {
         breakpoint: 1024,
         settings: {
+          variableWidth: false,
           slidesToShow: 3,
           slidesToScroll: 3,
           dots: true
@@ -29,6 +32,7 @@ $('.slider').slick({
       {
         breakpoint: 765,
         settings: {
+          variableWidth: false,
           slidesToShow: 2,
           slidesToScroll: 2
         }
@@ -36,6 +40,7 @@ $('.slider').slick({
       {
         breakpoint: 480,
         settings: {
+          variableWidth: false,
           slidesToShow: 1,
           slidesToScroll: 1
         }
@@ -94,9 +99,9 @@ $('.slider2').slick({
   accessibility: true,
   speed: 300,
   slidesToShow: 4,
-  prevArrow:"<button type='button' class='slick-prev pull-left'><img  src='Images/left-chevron.png' alt='left' style='width:100%'></button>",
+  prevArrow:"<button type='button' class='slick-prev pull-left'><img class='arrow-left-md' src='Images/left-chevron.png' alt='left' style='width:100%'></button>",
   nextArrow:"<button type='button' class='slick-next pull-left'><img class='arrow-right-md' src='Images/right-chevron.png' alt='right' style='width:100%'></button>",
-  slidesToScroll: 1,
+  slidesToScroll: 2,
   
   responsive: [
     {

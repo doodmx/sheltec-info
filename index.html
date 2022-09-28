@@ -1,663 +1,674 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <title>Sheltec</title>
-        <meta charset="utf-8"><!--Esta etiqueta define el encoding de caracteres. Se recomienda este para español e inglés. -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Especialmente útil para versiones anteriores de Internet Explorer.-->
-        <meta name="viewport" content="width=device-width, initial-scale=1"><!--útil para que la página se vea bien en dispositivos móviles.-->
-        <link rel="icon" type="image/png" href="Images/Index/logoSheltec-200px.png" sizes="16x16">
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">-->
-        <!--Import the webpage's stylesheet--> 
-        <link rel="stylesheet" href="style.css" type="text/css">
-        
-        <!--Include Slick CSS-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
-        <link rel="stylesheet" href="slick/slick-theme.css">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<head>
+  <title>Sheltec</title>
+  <meta charset="utf-8">
+  <!--Esta etiqueta define el encoding de caracteres. Se recomienda este para español e inglés. -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--Especialmente útil para versiones anteriores de Internet Explorer.-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--útil para que la página se vea bien en dispositivos móviles.-->
+  <link rel="icon" type="image/png" href="Images/Index/logoSheltec-200px.png" sizes="16x16">
 
-        <!--WhatsApp Flotante-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <a href="https://api.whatsapp.com/send?phone=524428079729&text=Quiero%20saber%20m%C3%A1s%20sobre%20Sheltec" class="float" target="_blank">
-            <i class="fa fa-whatsapp my-float"></i>
-        </a>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">-->
+  <!--Import the webpage's stylesheet-->
+  <link rel="stylesheet" href="style.css" type="text/css">
 
-		<!-- Meta Pixel Code -->
-        <script>
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '7304315252975925');
-            fbq('track', 'PageView');
-        </script>
-        <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=7304315252975925&ev=PageView&noscript=1"
-        /></noscript>
-        <!-- End Meta Pixel Code -->
+  <!--Include Slick CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-		<!--Facebook Meta Tag-->
-		<meta name="facebook-domain-verification" content="9rstubuxcncnopf5edpgalu2fht7l2" />
+  <!--WhatsApp Flotante-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://api.whatsapp.com/send?phone=524428079729&text=Quiero%20saber%20m%C3%A1s%20sobre%20Sheltec"
+    class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
 
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-N5LZJXBRQ5"></script>
-		<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '7304315252975925');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=7304315252975925&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
 
-		gtag('config', 'G-N5LZJXBRQ5');
-		</script>
+  <!--Facebook Meta Tag-->
+  <meta name="facebook-domain-verification" content="9rstubuxcncnopf5edpgalu2fht7l2" />
 
-		<!--Google site name tag-->
-		<meta name="google-site-verification" content="Agixfw6kfSuwQCOo7OvOsYa1w0KnZr1GqRrwQ87PUpw" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N5LZJXBRQ5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-    <!-- Global site tag (gtag.js) - Google Ads: 10847536433 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10847536433"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-10847536433'); </script>
- 
-    </head>
+    gtag('config', 'G-N5LZJXBRQ5');
+  </script>
 
-    <body>
-        <header>
-            <!--bg-light pinta el background del navbar color light. -->
-            <nav class="navbar fixed-top navbar-expand-md navbar-light" style="background-color: #ffffff;">
-				<a class="navbar-brand me-auto" href="index.html"><img src="Images/Logo.svg" class= "img-responsive navbar-logo-sheltec"></a>
-              	<!--Collapse navbar-->
-              
-				<button class="hamburger hamburger--vortex" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="hamburger-box">
-						<span class="hamburger-inner"></span>
-					</span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ms-auto" style="text-align:center;">
-						<li class="nav-item ">
-							<a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
-						</li>
-						<li class="nav-item ">
-							<a class="nav-link" href="productos.html">Productos</a>
-						</li>
-						<li class="nav-item ">
-							<a class="nav-link" href="proyectos.html">Proyectos</a>
-						</li>
-						<li class="nav-item ">
-							<a class="nav-link" href="nosotros.html">Nosotros</a>
-						</li>
-						<li class="nav-item ">
-							<a class="nav-link" href="contacto.html">Contacto</a>
-						</li>
-					</ul>
-				</div>
-              
-            </nav>
-            <!--Video de fondo-->
-            <div class="cover d-flex justify-content-center align-items-center flex-column"></div>
-        </header>
+  <!--Google site name tag-->
+  <meta name="google-site-verification" content="Agixfw6kfSuwQCOo7OvOsYa1w0KnZr1GqRrwQ87PUpw" />
 
-        <section class="filler">
+  <!-- Global site tag (gtag.js) - Google Ads: 10847536433 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10847536433"></script>
+  <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-10847536433'); </script>
 
+</head>
+
+<body>
+  <header>
+    <!--bg-light pinta el background del navbar color light. -->
+    <nav class="navbar fixed-top navbar-expand-md navbar-light" style="background-color: #ffffff;">
+      <a class="navbar-brand me-auto" href="index.html"><img src="Images/Logo.svg"
+          class="img-responsive navbar-logo-sheltec"></a>
+      <!--Collapse navbar-->
+
+      <button class="hamburger hamburger--vortex" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto" style="text-align:center;">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="proyectos.html">Proyectos</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+    <!--Video de fondo-->
+    <div class="cover d-flex justify-content-center align-items-center flex-column"></div>
+  </header>
+
+  <section class="filler">
+
+  </section>
+
+  <!-- Sección de carrousel de portada -->
+  <section class="section-strip evenly-all" style="background-color: #F8F8F8; padding-bottom: 0.1rem;">
+    <!--Slick-->
+    <section class="slick-portada" id="slick" style="padding-bottom: 2rem;">
+      <!--Contenedor de los items del slider-->
+      <div class="container slider4" id="container_portada">
+        <!--Portada z-->
+        <section class="item  banner banner-index d-flex portada-z" style="justify-content:center" id="portada-z">
+          <div class="banner-index-content">
+            <h1 class="h1 h1-white">¡Más opciones,<br> más rápido!</h1>
+            <p class="parr parr-white parr-small">Manténgase conectado al futuro con TE connectivity,
+              el fabricante líder en el mundo de las soluciones de detección y conectividad
+              más innovadoras y confiables disponibles hoy en el mercado.
+            </p>
+          </div>
         </section>
+        <!--Portada a-->
+        <section class="item  banner banner-index portenta" id="portada-a">
+          <div class="row no-gutters" style="width: 100%;">
+            <div class="col-md-6">
 
-        <!-- Sección de carrousel de portada -->
-        <section class="section-strip evenly-all" style="background-color: #F8F8F8; padding-bottom: 0.1rem;">
-          <!--Slick-->
-          <section class="slick-portada" id="slick" style="padding-bottom: 2rem;">
-            <!--Contenedor de los items del slider-->
-            <div class="container slider4" id="container_portada">
-              <!--Portada z-->
-              <section class="item  banner banner-index d-flex portada-z" style="justify-content:center" id="portada-z">
-                <div class="banner-index-content">
-                  <h1 class="h1 h1-white">¡Más opciones,<br> más rápido!</h1>
-                  <p class="parr parr-white parr-small">Manténgase conectado al futuro con TE connectivity, 
-                  el fabricante líder en el mundo de las soluciones de detección y conectividad
-                  más innovadoras y confiables disponibles hoy en el mercado. 
-                  </p>
-                </div>
-              </section>
-              <!--Portada a-->
-              <section class="item  banner banner-index portenta"  id="portada-a">
-                <div class="row no-gutters" style="width: 100%;">
-                  <div class="col-md-6">
-
-                  </div>
-                  <div class="col-md-6">
-                    <div class="card-body">
-                      <h3 class="card-title" id="h3-light">¡Nuevo!<br>Arduino Portenta H7</h3>
-                      <p class="card-horizontal-text parr-small" id="p-light">La primera tarjeta de desarrollo de alto
-                        rendimiento diseñada para conquistar las aplicaciones de AI e IoT industrial.
-                      </p>
-                      <div class="align-self-end col-sm-12 card-btn-container-horizontal" style="text-align: right;">
-                      
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <!--Portada b-->
-              <section class="item  banner banner-index d-flex portada-b" style="justify-content:center" id="portada-b">
-                <div class="banner-index-content">
-                  <h3 class=" black">La NUEVA serie de osciloscopios TBS1000C</h3>
-                  <p class="parr parr-small parr-black">Diseñados para satisfacer la necesidad
-                      de los maestros actuales e ingenieros de diseños integrados.
-                  </p>
-                </div>
-              </section>
-              <!--Portada c-->
-              <section class="item  banner banner-index d-flex portada-c" style="justify-content:center" id="portada-c">
-                <div class="banner-index-content">
-                  <h3 class=" white">Aquí encontrará las soluciones en herramientas y dispositivos</h3>
-                  <p class="parr parr-small parr-white">Consulte nuestro listado de productos, toda cotización
-                      y entrega en tiempo récord para contribuir de manera efectiva al desempeño
-                      óptimo de nuestros clientes.
-                  </p>
-                </div>
-              </section>
             </div>
-          </section>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title" id="h3-light">¡Nuevo!<br>Arduino Portenta H7</h3>
+                <p class="card-horizontal-text parr-small" id="p-light">La primera tarjeta de desarrollo de alto
+                  rendimiento diseñada para conquistar las aplicaciones de AI e IoT industrial.
+                </p>
+                <div class="align-self-end col-sm-12 card-btn-container-horizontal" style="text-align: right;">
+
+                </div>
+
+              </div>
+            </div>
+          </div>
         </section>
+        <!--Portada b-->
+        <section class="item  banner banner-index d-flex portada-b" style="justify-content:center" id="portada-b">
+          <div class="banner-index-content">
+            <h3 class=" black">La NUEVA serie de osciloscopios TBS1000C</h3>
+            <p class="parr parr-small parr-black">Diseñados para satisfacer la necesidad
+              de los maestros actuales e ingenieros de diseños integrados.
+            </p>
+          </div>
+        </section>
+        <!--Portada c-->
+        <section class="item  banner banner-index d-flex portada-c" style="justify-content:center" id="portada-c">
+          <div class="banner-index-content">
+            <h3 class=" white">Aquí encontrará las soluciones en herramientas y dispositivos</h3>
+            <p class="parr parr-small parr-white">Consulte nuestro listado de productos, toda cotización
+              y entrega en tiempo récord para contribuir de manera efectiva al desempeño
+              óptimo de nuestros clientes.
+            </p>
+          </div>
+        </section>
+      </div>
+    </section>
+  </section>
 
-        
 
-        <!--Sección Nuestro Servicios-->
-        <section class="pt-1" style="background-color: #F8F8F8; padding-bottom: 0.1rem;">
-          <div class= "container mb-3 container-nuestros-servicios">
-            <H2 style="padding-bottom: 3rem;">
-              Nuestros<br>Servicios
-            </H2>
-            <div class="row d-flex justify-content-center row-tarjetas-index">
-              <!--Primera tarjeta-->
-              <div class="col-12 col-sm-6 col-md-5 col-lg-4 " id="col-tarjeta-index-bloque" style="min-height: 74vh;">                
-                <div class="card"  id="card-bloque">
-                  <!-- <img class="card-img-top img-fluid" src="Images/Bloque@2x.png" id="img-card-bloque" alt="cables" style="width:100%"> -->
-                  <div class="card-img-overlay img-flex">
-                    <div class="align-self-end col-sm-12 text-center card-btn-container">
-                      <a href="servicios.html" id="btnVermas" class="btn btn-small btn-dark px-3" style="background-color: #56B6E7; border-color: #56B6E7;">Ver más...</a>
-                    </div>
-                    <div class="d-flex flex-column">
-                      <h3 class="h3-black vertical-card-title">Fast <br>Prototyping</h3>
-                      <p class="parr-small card-text">
-                        Generamos el prototipo que necesite, desde el diseño mecatrónico hasta
-                         el proceso de manufactura en serie. Hacemos u análisis de sus necesidades
-                          y trabajamos junto con usted para lograr el resultado que busca.
-                      </p>
-                    </div>
+
+  <!--Sección Nuestro Servicios-->
+  <section class="pt-1" style="background-color: #F8F8F8; padding-bottom: 0.1rem;">
+    <div class="container mb-3 container-nuestros-servicios">
+      <H2 style="padding-bottom: 3rem;">
+        Nuestros<br>Servicios
+      </H2>
+      <div class="row d-flex justify-content-center row-tarjetas-index">
+        <!--Primera tarjeta-->
+        <div class="col-12 col-sm-6 col-md-5 col-lg-4 " id="col-tarjeta-index-bloque" style="min-height: 74vh;">
+          <div class="card" id="card-bloque">
+            <!-- <img class="card-img-top img-fluid" src="Images/Bloque@2x.png" id="img-card-bloque" alt="cables" style="width:100%"> -->
+            <div class="card-img-overlay img-flex">
+              <div class="align-self-end col-sm-12 text-center card-btn-container">
+                <a href="servicios.html" id="btnVermas" class="btn btn-small btn-dark px-3"
+                  style="background-color: #56B6E7; border-color: #56B6E7;">Ver más...</a>
+              </div>
+              <div class="d-flex flex-column">
+                <h3 class="h3-black vertical-card-title">Fast <br>Prototyping</h3>
+                <p class="parr-small card-text">
+                  Generamos el prototipo que necesite, desde el diseño mecatrónico hasta
+                  el proceso de manufactura en serie. Hacemos u análisis de sus necesidades
+                  y trabajamos junto con usted para lograr el resultado que busca.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Segunda tarjeta-->
+        <div class="col-12 col-sm-6 col-md-5 col-lg-4 " style="min-height: 74vh;">
+          <div class="card" style="height: 100%;">
+            <img class="card-img-top" src="Images/PCBS.png" alt="pcb" style="width:100%; height:100%">
+            <div class="card-img-overlay img-flex">
+              <div class="align-self-end col-sm-12 text-center card-btn-container" id="card-btn-container-PCB">
+                <div class="row">
+                  <div class="col-12 col-sm-6 center-all" id="col-btn-PCB-top">
+                    <a href="servicios.html" id="btnCotizardiseño" class="btn btn-small btn-dark px-3 mx-3"
+                      style="background-color: #56B6E7; border-color: #56B6E7;">Ver más</a>
+                  </div>
+                  <div class="col-12 col-sm-6 center-all">
+                    <a href="manufactura-pcb.html" id="btnVermas" class="btn btn-small btn-dark px-3"
+                      style="background-color: #56B6E7; border-color: #56B6E7;">Cotizar</a>
                   </div>
                 </div>
               </div>
-            
-              <!--Segunda tarjeta-->
-              <div class="col-12 col-sm-6 col-md-5 col-lg-4 " style="min-height: 74vh;">
-				<div class="card" style="height: 100%;">
-					<img class="card-img-top" src="Images/PCBS.png" alt="pcb" style="width:100%; height:100%">
-					<div class="card-img-overlay img-flex">
-						<div class="align-self-end col-sm-12 text-center card-btn-container"  id="card-btn-container-PCB">
-							<div class="row">
-								<div class="col-12 col-sm-6 center-all" id="col-btn-PCB-top">
-									<a href="servicios.html" id="btnCotizardiseño" class="btn btn-small btn-dark px-3 mx-3" style="background-color: #56B6E7; border-color: #56B6E7;">Ver más</a>
-								</div>
-								<div class="col-12 col-sm-6 center-all">
-									<a href="manufactura-pcb.html" id="btnVermas" class="btn btn-small btn-dark px-3" style="background-color: #56B6E7; border-color: #56B6E7;">Cotizar</a>
-								</div>
-							</div>
-						</div>
-						<div class="d-flex flex-column">
-							<h3 class="vertical-card-title" id="h3-light">Diseño y Fabricación de PCBs.</h3>
-							<p class="parr-small card-text" id="p-light">
-                Rapidez, precisión y atención personalizada para agilizar la manufactura
-                 de los circuitos impresos necesarios para el correcto funcionamiento
+              <div class="d-flex flex-column">
+                <h3 class="vertical-card-title" id="h3-light">Diseño y Fabricación de PCBs.</h3>
+                <p class="parr-small card-text" id="p-light">
+                  Rapidez, precisión y atención personalizada para agilizar la manufactura
+                  de los circuitos impresos necesarios para el correcto funcionamiento
                   de sus procesos tecnológicos.
-							</p>
-						</div>
-					</div>
-                </div>
-              </div>
-              
-              <!--Tercera tarjeta-->
-              <div class="col-diseno-impresion col-12 col-sm-6 col-md-5 col-lg-4 " style="min-height: 74vh;">                
-                <div class="card" id="card-impresora" style="">
-                  <!-- <img class="card-img-top" src="Images/impresora.png" alt="impresora 3d" style="width:100%"> -->
-                  <div class="card-img-overlay img-flex">
-                    <div class="align-self-end col-sm-12 text-center card-btn-container" id="card-btn-container-3d">
-						<div class="row">
-							<div class="col-12 col-sm-6 center-all" id="col-btn-PCB-top">
-								<a href="servicios.html" id="btnCotizardiseño" class="btn btn-small btn-dark px-3 mx-3" style="background-color: #56B6E7; border-color: #56B6E7;">Ver más</a>
-							</div>
-							<div class="col-12 col-sm-6 center-all">
-								<a href="disenio3d.html" id="btnVermas" class="btn btn-small btn-dark px-3" style="background-color: #56B6E7; border-color: #56B6E7;">Cotizar</a>
-							</div>
-						</div>
-                    </div>
-                    <div class="d-flex flex-column">
-                      <h3 class="h3-black vertical-card-title">Diseño y Fabricación de Impresión 3D.</h3> 
-                      <p class="parr-small card-text">
-                        Desde metales y resinas hasta polímeros, utilizamos manufactura aditiva para crear
-                         piezas o sistemas complejos bajo diseño implementados en cualquiera de sus procesos
-                          industriales y tecnológicos, a precios competitivos.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                </p>
               </div>
             </div>
           </div>
-        </section> 
-        
-        
-        <!--Sección de tarjetas horizontales-->
-        <section>
-          <!--Primera tarjeta horizontal-->
-            <div class="card card-horizontal pinza" style="border: 0;">
-              <div class="row no-gutters" style="width: 100%;">
-                <div class="col-md-6" style="padding-left: 4.5em;">
-                  <div class="card-body">
-                    <h2 class="card-title h2-white">Industria <br>4.0 & IOT</h2>
-                    <p class="card-horizontal-text parr-small parr-white">Desarrollo de soluciones tecnológicas 
-                      a través de sistemas embebidos, inteligencia artificial 
-                      para la toma de decisiones enfocados a la industria de 
-                      agricultura de precisión y automotriz potenciando las 
-                      empresas de forma sencilla y accesible para todos.</p>
-                    <div class="align-self-end col-sm-12 text-center card-btn-container-horizontal center-all">
-                      <a href="contacto.html" id="btnVermas" class="btn btn-small btn-dark px-3" 
-                       style="background-color: #56B6E7; border-color: #56B6E7;">Cotizar</a>
-                    </div>
+        </div>
+
+        <!--Tercera tarjeta-->
+        <div class="col-diseno-impresion col-12 col-sm-6 col-md-5 col-lg-4 " style="min-height: 74vh;">
+          <div class="card" id="card-impresora" style="">
+            <!-- <img class="card-img-top" src="Images/impresora.png" alt="impresora 3d" style="width:100%"> -->
+            <div class="card-img-overlay img-flex">
+              <div class="align-self-end col-sm-12 text-center card-btn-container" id="card-btn-container-3d">
+                <div class="row">
+                  <div class="col-12 col-sm-6 center-all" id="col-btn-PCB-top">
+                    <a href="servicios.html" id="btnCotizardiseño" class="btn btn-small btn-dark px-3 mx-3"
+                      style="background-color: #56B6E7; border-color: #56B6E7;">Ver más</a>
+                  </div>
+                  <div class="col-12 col-sm-6 center-all">
+                    <a href="disenio3d.html" id="btnVermas" class="btn btn-small btn-dark px-3"
+                      style="background-color: #56B6E7; border-color: #56B6E7;">Cotizar</a>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <!--img src="Images/" class="card-img" alt="..."-->
-                </div>
+              </div>
+              <div class="d-flex flex-column">
+                <h3 class="h3-black vertical-card-title">Diseño y Fabricación de Impresión 3D.</h3>
+                <p class="parr-small card-text">
+                  Desde metales y resinas hasta polímeros, utilizamos manufactura aditiva para crear
+                  piezas o sistemas complejos bajo diseño implementados en cualquiera de sus procesos
+                  industriales y tecnológicos, a precios competitivos.
+                </p>
               </div>
             </div>
-
-          
           </div>
-        </section>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
-        <section class="pt-1 section-conoce evenly-all" style="background-color: #F8F8F8; padding-bottom: 0.1rem;">
-          <div class= "container container-title mt-3 mb-3">
-            <h2>
-              Conoce nuestras<br>ofertas
-            </h2>
+  <!--Sección de tarjetas horizontales-->
+  <section>
+    <!--Primera tarjeta horizontal-->
+    <div class="card card-horizontal pinza" style="border: 0;">
+      <div class="row no-gutters" style="width: 100%;">
+        <div class="col-md-6" style="padding-left: 4.5em;">
+          <div class="card-body">
+            <h2 class="card-title h2-white">Industria <br>4.0 & IOT</h2>
+            <p class="card-horizontal-text parr-small parr-white">Desarrollo de soluciones tecnológicas
+              a través de sistemas embebidos, inteligencia artificial
+              para la toma de decisiones enfocados a la industria de
+              agricultura de precisión y automotriz potenciando las
+              empresas de forma sencilla y accesible para todos.</p>
+            <div class="align-self-end col-sm-12 text-center card-btn-container-horizontal center-all">
+              <a href="contacto.html" id="btnVermas" class="btn btn-small btn-dark px-3"
+                style="background-color: #56B6E7; border-color: #56B6E7;">Cotizar</a>
+            </div>
           </div>
-          <!--Sección del slider-->
-          <section id="slick" style="padding-bottom: 2rem;">
-            
-            <div class="container slider pt-1">
-              <!--Minitarjeta 1-->
-              <div>
-                <div class="row pb-4 px-3">
-                  <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card card_square shadow" style="width: 13rem;">
-                      <div title="led" class="card-img-mini img-fluid" style="
+        </div>
+        <div class="col-md-6">
+          <!--img src="Images/" class="card-img" alt="..."-->
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+  </section>
+
+
+  <section class="pt-1 section-conoce evenly-all" style="background-color: #F8F8F8; padding-bottom: 0.1rem;">
+    <div class="container container-title mt-3 mb-3">
+      <h2>
+        Conoce nuestras<br>ofertas
+      </h2>
+    </div>
+    <!--Sección del slider-->
+    <section id="slick" style="padding-bottom: 2rem;">
+
+      <div class="container container-slider slider pt-1">
+        <!--Minitarjeta 1-->
+        <div>
+          <div class="row pb-4 px-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+              <div class="card card_square shadow card_square_size">
+                <div title="led" class="card-img-mini img-fluid" style="
                         background-image: url(Images/Index/Newark/circuitosintegrados.webp);
                         background-size: contain;
                         background-repeat: no-repeat;
                         "></div>
-                      <div class="card-text-mini">
-                        Circuitos integrados de control motor para motores paso a paso, motores de CC sin escobillas o aplicaciones de medio puente
-                      </div>
-                    </div>
-                  </div>
+                <div class="card-text-mini">
+                  Circuitos integrados de control motor para motores paso a paso, motores de CC sin escobillas o
+                  aplicaciones de medio puente
                 </div>
               </div>
-              <!--Minitarjeta 2-->
-              <div>
-                <div class="row pb-4 px-3">
-                  <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card card_square shadow" style="width: 13 rem;">
-                      <div title="protección" class="card-img-mini" style="
+            </div>
+          </div>
+        </div>
+        <!--Minitarjeta 2-->
+        <div>
+          <div class="row pb-4 px-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+              <div class="card card_square shadow card_square_size">
+                <div title="protección" class="card-img-mini" style="
                         background-image: url(Images/Index/Newark/reactorenmodo.webp);
                         background-size: contain;
                         background-repeat: no-repeat;
                         "></div>
-                      <div class="card-text-mini">
-                        Reactor en modo común IHCM de Vishay
-                      </div>
-                    </div>
-                  </div>
+                <div class="card-text-mini">
+                  Reactor en modo común IHCM de Vishay
                 </div>
               </div>
-              
-
-              <!--Minitarjeta 4 -->
-              <div>
-                <div class="row pb-4 px-3">
-                  <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card card_square shadow" style="width: 13rem;">
-                      <div title="herramientas" class="card-img-mini" style="
+            </div>
+          </div>
+        </div>
+        <!--Minitarjeta 4 -->
+        <div>
+          <div class="row pb-4 px-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+              <div class="card card_square shadow card_square_size">
+                <div title="herramientas" class="card-img-mini" style="
                         background-size: contain;
                         background-repeat: no-repeat;
                         background-image: url(Images/Index/Newark/cablespreengarzados.webp);
-                        "></div> 
-                      <div class="card-text-mini">
-						Cables preengarzados para terminales de anillo sin soldadura
-                      </div>
-                    </div>
-                  </div>
+                        "></div>
+                <div class="card-text-mini">
+                  Cables preengarzados para terminales de anillo sin soldadura
                 </div>
               </div>
-
-              <!--Minitarjeta 5 -->
-              <div>
-                <div class="row pb-4 px-3">
-                  <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card card_square shadow" style="width: 13rem;">
-                      <div title="medición" class="card-img-mini" style="
+            </div>
+          </div>
+        </div>
+        <!--Minitarjeta 5 -->
+        <div>
+          <div class="row pb-4 px-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+              <div class="card card_square shadow card_square_size">
+                <div title="medición" class="card-img-mini" style="
                         background-image: url(Images/Index/Newark/fuentesdealimentacion.webp);
                         background-size: contain;
                         background-repeat: no-repeat;
-                        "></div> 
-                      <div class="card-text-mini">
-                        Fuentes de alimentación de mesa de trabajo serie SPS
-                      </div>
-                    </div>
-                  </div>
+                        "></div>
+                <div class="card-text-mini">
+                  Fuentes de alimentación de mesa de trabajo serie SPS
                 </div>
               </div>
-
-              <!--Minitarjeta 6 -->
-              <div>
-                <div class="row pb-4 px-3">
-                  <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card card_square shadow" style="width: 200px;">
-                      <div title="aislamiento térmico" class="card-img-mini" style="
+            </div>
+          </div>
+        </div>
+        <!--Minitarjeta 6 -->
+        <div>
+          <div class="row pb-4 px-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+              <div class="card card_square shadow card_square_size">
+                <div title="aislamiento térmico" class="card-img-mini" style="
                         background-image: url(Images/Index/Newark/metcalmx.webp);
                         background-size: contain;
                         background-repeat: no-repeat;
-                        "></div> 
-                      <div class="card-text-mini">
-                        Metcal MX-5211: estación de retrabajo, con 2 bases de trabajo TipSaver™, de 120 V, EE. UU.
-                      </div>
-                    </div>
-                  </div>
+                        "></div>
+                <div class="card-text-mini">
+                  Metcal MX-5211: estación de retrabajo, con 2 bases de trabajo TipSaver™, de 120 V, EE. UU.
                 </div>
               </div>
-			  <!--Minitarjeta 7 -->
-              <div>
-                <div class="row pb-4 px-3">
-                  <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card card_square shadow" style="width: 200px;">
-                      <div title="aislamiento térmico" class="card-img-mini" style="
+            </div>
+          </div>
+        </div>
+        <!--Minitarjeta 7 -->
+        <div>
+          <div class="row pb-4 px-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+              <div class="card card_square shadow card_square_size">
+                <div title="aislamiento térmico" class="card-img-mini" style="
                         background-image: url(Images/Index/Newark/nuevasantenas.webp);
                         background-size: contain;
                         background-repeat: no-repeat;
-                        "></div> 
-                      <div class="card-text-mini">
-                        Nuevas antenas de televisión de Multicomp PRO
-                      </div>
-                    </div>
-                  </div>
+                        "></div>
+                <div class="card-text-mini">
+                  Nuevas antenas de televisión de Multicomp PRO
                 </div>
               </div>
-			  <!--Minitarjeta 8 -->
-              <div>
-                <div class="row pb-4 px-3">
-                  <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card card_square shadow" style="width: 200px;">
-                      <div title="aislamiento térmico" class="card-img-mini" style="
+            </div>
+          </div>
+        </div>
+        <!--Minitarjeta 8 -->
+        <div>
+          <div class="row pb-4 px-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+              <div class="card card_square shadow card_square_size">
+                <div title="aislamiento térmico" class="card-img-mini" style="
                         background-image: url(Images/Index/Newark/controldelamaquina.jpg);
                         background-size: contain;
                         background-repeat: no-repeat;
-                        "></div> 
-                      <div class="card-text-mini">
-                        Control de la máquina Portenta de Arduino y control de borde
-                      </div>
-                    </div>
-                  </div>
+                        "></div>
+                <div class="card-text-mini">
+                  Control de la máquina Portenta de Arduino y control de borde
                 </div>
               </div>
-			  <!--Minitarjeta 9 -->
-              <div>
-                <div class="row pb-4 px-3">
-                  <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card card_square shadow" style="width: 200px;">
-                      <div title="aislamiento térmico" class="card-img-mini" style="
+            </div>
+          </div>
+        </div>
+        <!--Minitarjeta 9 -->
+        <div>
+          <div class="row pb-4 px-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+              <div class="card card_square shadow card_square_size">
+                <div title="aislamiento térmico" class="card-img-mini" style="
                         background-image: url(Images/Index/Newark/rp2040.webp);
                         background-size: contain;
                         background-repeat: no-repeat;
-                        "></div> 
-                      <div class="card-text-mini">
-                        RP2040 - Un microcontrolador de Raspberry Pi
-                      </div>
-                    </div>
-                  </div>
+                        "></div>
+                <div class="card-text-mini">
+                  RP2040 - Un microcontrolador de Raspberry Pi
                 </div>
               </div>
-			  <!--Minitarjeta 10 -->
-              <div>
-                <div class="row pb-4 px-3">
-                  <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card card_square shadow" style="width: 200px;">
-                      <div title="aislamiento térmico" class="card-img-mini" style="
+            </div>
+          </div>
+        </div>
+        <!--Minitarjeta 10 -->
+        <div>
+          <div class="row pb-4 px-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+              <div class="card card_square shadow card_square_size">
+                <div title="aislamiento térmico" class="card-img-mini" style="
                         background-image: url(Images/Index/Newark/nuevasfuentes.webp);
                         background-size: contain;
                         background-repeat: no-repeat;
-                        "></div> 
-                      <div class="card-text-mini">
-                        Nuevas fuentes de alimentación de CA-CC de montaje de PCB
-                      </div>
-                    </div>
-                  </div>
+                        "></div>
+                <div class="card-text-mini">
+                  Nuevas fuentes de alimentación de CA-CC de montaje de PCB
                 </div>
               </div>
-			  <!--Minitarjeta 11 -->
-              <div>
-                <div class="row pb-4 px-3">
-                  <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card card_square shadow" style="width: 200px;">
-                      <div title="aislamiento térmico" class="card-img-mini" style="
+            </div>
+          </div>
+        </div>
+        <!--Minitarjeta 11 -->
+        <div>
+          <div class="row pb-4 px-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+              <div class="card card_square shadow card_square_size">
+                <div title="aislamiento térmico" class="card-img-mini" style="
                         background-image: url(Images/Index/Newark/termopardepoliamida.webp);
                         background-size: contain;
                         background-repeat: no-repeat;
-                        "></div> 
-                      <div class="card-text-mini">
-                        Termopar de poliamida de superficie de respuesta rápida autoadhesiva
-                      </div>
-                    </div>
-                  </div>
+                        "></div>
+                <div class="card-text-mini">
+                  Termopar de poliamida de superficie de respuesta rápida autoadhesiva
                 </div>
               </div>
-			  <!--Minitarjeta 12 -->
-              <div>
-                <div class="row pb-4 px-3">
-                  <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card card_square shadow" style="width: 200px;">
-                      <div title="aislamiento térmico" class="card-img-mini" style="
+            </div>
+          </div>
+        </div>
+        <!--Minitarjeta 12 -->
+        <div>
+          <div class="row pb-4 px-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+              <div class="card card_square shadow card_square_size">
+                <div title="aislamiento térmico" class="card-img-mini" style="
                         background-image: url(Images/Index/Newark/boroscopio.webp);
                         background-size: contain;
                         background-repeat: no-repeat;
-                        "></div> 
-                      <div class="card-text-mini">
-                        Presentamos el boroscopio de imagen térmica VS290
-                      </div>
-                    </div>
-                  </div>
+                        "></div>
+                <div class="card-text-mini">
+                  Presentamos el boroscopio de imagen térmica VS290
                 </div>
               </div>
-
-
-
-
-
             </div>
-          </section>
-        </section>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
 
-		<!--Sección nuestros productos-->
-		<section class="section_nuestros-productos section-beige">
-			<div class="row">
-				<div class="col col-md-6 center-all" style="align-items: center;">
-					<div class="col-content" id="col-content_nuestros-productos" style="">
-						<h3 style="padding-bottom: 2em">Nuestros<br> productos</h3>
-						<div class="row">
-							<div class="col">
-								<div class="parr list-element">Administración Térmica.</div>
-								<div class="parr list-element">Automatización industrial.</div>
-								<div class="parr list-element">Cables y Alambres.</div>
-								<div class="parr list-element">Componentes pasivos.</div>
-								<div class="parr list-element">Conectores. </div>
-								<div class="parr list-element">Dispositivos optoelectrónicos.</div>
-							</div>
-							<div class="col">
-								<div class="relleno">   </div>
-								<div class="parr list-element">Electromecánica..</div>
-								<div class="parr list-element">Gabinetes.</div>
-								<div class="parr list-element">Herramientas de ingeniería.</div>
-								<div class="parr list-element">Herramientas y suministros. </div>
-								<div class="parr list-element">Iluminación LED.</div>
-							</div>
-						</div>
-						<div class="center-all" id="btn_nuestros-productos">
-							<a href="productos.html"  class="btn btn-small btn-dark px-3" style="background-color: #56B6E7; border-color: #56B6E7;">Ver más...</a>
-						</div>
-						
-					</div>
-					
-				</div>
-				<div class="col col-md-6">
-					<div class="img-container">
-						<img id="img_arduino_nuestros-productos" src="Images/Index/Imagen circuito.svg" alt="Arduino Portenta" style=" ">
-					</div>
-				</div>
-			</div>
-		</section>
-
-        <section class="section-strip evenly-all">
-          <h2 class="pt-4" style="text-align: center;">Distribuimos las Mejores Marcas</h2>
-          <!--Segundo slider-->
-          <section id="slick" style="padding-bottom: 2rem;">
-            <!--Contenedor de los items del slider-->
-            <div class="container slider2 pt-1">
-              <!--Logo size ????-->
-              <div class="item" id="logo"><img class="slick-width" src="Images/advantech_logo.png" alt="logo advantech"></div>
-              <div class="item" id="logo"><img class="slick-width" src="Images/avnet_logo.png" alt="logo avnet"></div>
-              <div class="item" id="logo"><img class="slick-width" src="Images/omron_logo.png" alt="logo omron"></div>
-              <div class="item" id="logo"><img class="slick-width" src="Images/pololu_logo.png" alt="logo pololu"></div>
+  <!--Sección nuestros productos-->
+  <section class="section_nuestros-productos section-beige">
+    <div class="row">
+      <div class="col col-md-6 center-all" style="align-items: center;">
+        <div class="col-content" id="col-content_nuestros-productos" style="">
+          <h3 style="padding-bottom: 2em">Nuestros<br> productos</h3>
+          <div class="row">
+            <div class="col">
+              <div class="parr list-element">Administración Térmica.</div>
+              <div class="parr list-element">Automatización industrial.</div>
+              <div class="parr list-element">Cables y Alambres.</div>
+              <div class="parr list-element">Componentes pasivos.</div>
+              <div class="parr list-element">Conectores. </div>
+              <div class="parr list-element">Dispositivos optoelectrónicos.</div>
             </div>
-          </section>
-        </section>
-        
-        <!-- Sección de Nuestros Clientes -->
-        <section class="section-strip evenly-all" style="background-color: #F8F8F8; padding-bottom: 0.1rem; padding-top: 4rem;">
-          <h2 style="text-align: center; margin-bottom: 1rem;">Nuestros Clientes</h2>
-          <!--Tercer slider-->
-          <section id="slick" style="padding-bottom: 2rem;">
-            <!--Contenedor de los items del slider-->
-            <div class="container slider3 pt-1">
-              <!--Logo size ????-->
-              <div class="item" id="logo"><img class="slick-width-m" src="Images/cidesi_logo.png" alt="logo advantech"></div>
-              <div class="item" id="logo"><img class="slick-width-m" src="Images/cinvestav_logo.png" alt="logo avnet"></div>
-              <div class="item" id="logo"><img class="slick-width-m" src="Images/ingredion_logo.png" alt="logo omron"></div>
-              <div class="item" id="logo"><img class="slick-width-m" src="Images/trw_logo.png" alt="logo pololu"></div>
+            <div class="col">
+              <div class="relleno"> </div>
+              <div class="parr list-element">Electromecánica..</div>
+              <div class="parr list-element">Gabinetes.</div>
+              <div class="parr list-element">Herramientas de ingeniería.</div>
+              <div class="parr list-element">Herramientas y suministros. </div>
+              <div class="parr list-element">Iluminación LED.</div>
             </div>
-          </section>
-        </section>
+          </div>
+          <div class="center-all" id="btn_nuestros-productos">
+            <a href="productos.html" class="btn btn-small btn-dark px-3"
+              style="background-color: #56B6E7; border-color: #56B6E7;">Ver más...</a>
+          </div>
 
-        
+        </div>
+
+      </div>
+      <div class="col col-md-6">
+        <div class="img-container">
+          <img id="img_arduino_nuestros-productos" src="Images/Index/Imagen circuito.svg" alt="Arduino Portenta"
+            style=" ">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-strip evenly-all">
+    <h2 class="pt-4" style="text-align: center;">Distribuimos las Mejores Marcas</h2>
+    <!--Segundo slider-->
+    <section id="slick2" style="padding-bottom: 2rem;">
+      <!--Contenedor de los items del slider-->
+      <div class="container slider2 pt-1">
+        <!--Logo size ????-->
+        <div class="item" id="logo"><img class="slick-width" src="./Images/advantech_logo.png" alt="logo advantech"></div>
+        <div class="item" id="logo"><img class="slick-width" src="./Images/avnet_logo.png" alt="logo avnet"></div>
+        <div class="item" id="logo"><img class="slick-width" src="./Images/omron_logo.png" alt="logo omron"></div>
+        <div class="item" id="logo"><img class="slick-width" src="./Images/pololu_logo.png" alt="logo pololu"></div>
+      </div>
+    </section>
+  </section>
+
+  <!-- Sección de Nuestros Clientes -->
+  <section class="section-strip evenly-all"
+    style="background-color: #F8F8F8; padding-bottom: 0.1rem; padding-top: 4rem;">
+    <h2 style="text-align: center; margin-bottom: 1rem;">Nuestros Clientes</h2>
+    <!--Tercer slider-->
+    <section id="slick3" style="padding-bottom: 2rem;">
+      <!--Contenedor de los items del slider-->
+      <div class="container slider3 pt-1">
+        <!--Logo size ????-->
+        <div class="item" id="logo"><img class="slick-width-m" src="./Images/cidesi_logo.png" alt="logo advantech"></div>
+        <div class="item" id="logo"><img class="slick-width-m" src="./Images/cinvestav_logo.png" alt="logo avnet"></div>
+        <div class="item" id="logo"><img class="slick-width-m" src="./Images/ingredion_logo.png" alt="logo omron"></div>
+        <div class="item" id="logo"><img class="slick-width-m" src="./Images/trw_logo.png" alt="logo pololu"></div>
+      </div>
+    </section>
+  </section>
 
 
-        <!--Footer-->
-        <section class="center-all" style="background-color: black; padding-bottom: 0.1rem;">
-			<div class="footer-content center-all" style="width: 85%;">
-				<div class="row pb-5 px-5" style="width: 100%; padding-top:4.5em">
-					<div class="col-6 col-md">
-						<h5>Servicios</h5>
-						<ul class="list-unstyled footer_ul">
-							<li><a class="link-secondary text-decoration-none" href="#">Fast prototyping</a></li>
-							<li><a class="link-secondary text-decoration-none" href="#">Impresión 3d</a></li>
-							<li><a class="link-secondary text-decoration-none" href="#">Fabricación de PCB´s</a></li>
-						</ul>
-					</div>
+  <!--Footer-->
+  <section class="center-all" style="background-color: black; padding-bottom: 0.1rem;">
+    <div class="footer-content center-all" style="width: 85%;">
+      <div class="row pb-5 px-5" style="width: 100%; padding-top:4.5em">
+        <div class="col-6 col-md">
+          <h5>Servicios</h5>
+          <ul class="list-unstyled footer_ul">
+            <li><a class="link-secondary text-decoration-none" href="#">Fast prototyping</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Impresión 3d</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Fabricación de PCB´s</a></li>
+          </ul>
+        </div>
 
-					<div class="col-6 col-md">
-						<h5>Productos</h5>
-						<ul class="list-unstyled footer_ul">
-							<li><a class="link-secondary text-decoration-none" href="#">Administración Térmica.</a></li>
-							<li><a class="link-secondary text-decoration-none" href="#">Automatización Industrial.</a></li>
-							<li><a class="link-secondary text-decoration-none" href="#">Cables y Alambres.</a></li>
-							<li><a class="link-secondary text-decoration-none" href="#">Componentes pasivos.</a></li>
-							<li><a class="link-secondary text-decoration-none" href="#">Conectores.</a></li>
-							<li><a class="link-secondary text-decoration-none" href="#">Más...</a></li>
-						</ul>
-					</div>
+        <div class="col-6 col-md">
+          <h5>Productos</h5>
+          <ul class="list-unstyled footer_ul">
+            <li><a class="link-secondary text-decoration-none" href="#">Administración Térmica.</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Automatización Industrial.</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Cables y Alambres.</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Componentes pasivos.</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Conectores.</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Más...</a></li>
+          </ul>
+        </div>
 
-					<div class="col-6 col-md">
-						<h5>Proyectos</h5>
-						<ul class="list-unstyled footer_ul">
-						</ul>
-					</div>
+        <div class="col-6 col-md">
+          <h5>Proyectos</h5>
+          <ul class="list-unstyled footer_ul">
+          </ul>
+        </div>
 
-					<div class="col-6 col-md">
-						<h5>Nosotros</h5>
-						<ul class="list-unstyled footer_ul">
-							<li>
-								<a class="link-secondary text-decoration-none" href="#">¿Quiénes somos?</a>
-							</li>
-						</ul>
-						<h5>Contacto</h5>
-						<ul class="list-unstyled footer_ul">
-							<li><a class="link-secondary text-decoration-none" href="#">¿Quiere realizar un pedido?</a></li>
-							<li><a class="link-secondary text-decoration-none" href="#">ventas@sheltecmx.com</a>
-							</li>
-							<li><a class="link-secondary text-decoration-none" href="#">(442) 807 9729</a></li>
-							<li><br></li>
-							<!--Aquí va el botón de Descargar-->
-							<a href="contacto.html" id="btnCotizardiseño" class="btn btn-small btn-dark px-3 mx-3" style="
+        <div class="col-6 col-md">
+          <h5>Nosotros</h5>
+          <ul class="list-unstyled footer_ul">
+            <li>
+              <a class="link-secondary text-decoration-none" href="#">¿Quiénes somos?</a>
+            </li>
+          </ul>
+          <h5>Contacto</h5>
+          <ul class="list-unstyled footer_ul">
+            <li><a class="link-secondary text-decoration-none" href="#">¿Quiere realizar un pedido?</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">ventas@sheltecmx.com</a>
+            </li>
+            <li><a class="link-secondary text-decoration-none" href="#">(442) 807 9729</a></li>
+            <li><br></li>
+            <!--Aquí va el botón de Descargar-->
+            <a href="contacto.html" id="btnCotizardiseño" class="btn btn-small btn-dark px-3 mx-3" style="
 							background-color: #56B6E7; border-color: #56B6E7; justify-self: right;
 							">Cotizar</a>
-						</ul>
-					</div>
-				</div>
-	
-			  <!--Renglón de hasta abajo-->
-				<div class="row pt-4 pb-5 px-5" style="width: 100%;">
-					<div class="col-6 col-md-3">
-						<a class="link-secondary text-decoration-none" href="#">Términos y Condiciones</a>
-					</div>
-					<div class="col-6 col-md-3">
-						<a class="link-secondary text-decoration-none" href="#">Políticas de Privacidad</a>
-					</div>
-					<div class="col-6 col-md-3">
-					</div>
-              
-              		<!--Columna de los logos-->
-					<div class="col-6 col-md-3">
-						<div class="social-media">
-							<a href="https://www.facebook.com/SheltecMX"><i class="fab fa-facebook-f"></i></a>
-							<a href="https://www.instagram.com/sheltec.mx/"><i class="fab fa-instagram"></i></a>
-							<a href="https://www.linkedin.com/company/sheltec-m%C3%A9xico/about/"><i class="fab fa-linkedin-in"></i></a>
-						</div>
-					</div>
-            	</div>
-			</div>
-			
-		</section>
+          </ul>
+        </div>
+      </div>
 
-        <!--JavaScript-->
-        <!--Script de JS local-->
-      	<script language="JavaScript" type="module" src="script.js"></script>
-        <!--Import jQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
-        <!--Import slick-->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-        <!--Custom slick-->
-        <script src="js/script.js"></script>
-        <!--Bootstrap JS-->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        
+      <!--Renglón de hasta abajo-->
+      <div class="row pt-4 pb-5 px-5" style="width: 100%;">
+        <div class="col-6 col-md-3">
+          <a class="link-secondary text-decoration-none" href="#">Términos y Condiciones</a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a class="link-secondary text-decoration-none" href="#">Políticas de Privacidad</a>
+        </div>
+        <div class="col-6 col-md-3">
+        </div>
 
+        <!--Columna de los logos-->
+        <div class="col-6 col-md-3">
+          <div class="social-media">
+            <a href="https://www.facebook.com/SheltecMX"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/sheltec.mx/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/sheltec-m%C3%A9xico/about/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    </body>
-    
+  </section>
+
+  <!--JavaScript-->
+  <!--Script de JS local-->
+  <script language="JavaScript" type="module" src="script.js"></script>
+  <!--Import jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!--Import slick-->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <!--Custom slick-->
+  <script src="js/script.js"></script>
+  <!--Bootstrap JS-->
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
 
 
 

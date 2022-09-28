@@ -151,12 +151,24 @@ Gris: #383837
   max-height: 45%;
   object-fit: contain;
   background-position: center;
+  align-self: flex-end;
 }
-
+.card_square_size{
+  width: 13rem;
+  height: 13rem;
+}
 .card_servicios_content{
-  max-width: 80%;
-  min-height: 90%;
+  /* max-width: 80%; */
+  padding: 20px 20px 0 20px;
+  height: 100%;
   text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_servicios_content h4{
+  font-size: 28px;
 }
 
 .card_squareish{
@@ -1570,6 +1582,69 @@ input[name="myemailform"]{
   .slick-slide .row{
     margin: 0;
   }
+}
+@media(max-width:1024px){
+  .card_square_size{
+    width: 8rem;
+    height: 8rem;
+  }
+  .card-text-mini{
+    display: none;
+  }
+}
+@media(max-width:700px){
+  .card_square_size{
+    width: 220px;
+    height: 220px;
+  }
+   
+}
+@media (min-width: 2000px){
+  body{
+    font-size: 1.8rem;
+  }
+  #btnCotizardiseño,
+  #btnCotizarfabric,
+  #btnVermas,
+  #btnCotizar{
+    font-size: 18px;
+}
+  .testimonials .testimonial{
+    width: 700px;
+    height: 600px;
+  }
+  .black{
+    font-size: 34px;
+  }
+  .parr{
+    font-size: 28px;
+  }
+  .testimonial img {
+    height: 30%;
+  }
+  .col-content h4{
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  .col-content p{
+    font-size: 22px;
+  }
+  .card_square_size{
+    width: 400px;
+    height: 400px;
+  }
+  .card-img-mini{
+    height: 400px;
+    /* height: 99px; */
+  }
+  .card-text-mini{
+    font-size: 22px;
+  }
+  .container-slider{
+    width: 100%;
+    max-width: 2400px;
+  }
+
 }
 
 
